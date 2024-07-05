@@ -6,7 +6,7 @@
     <meta name="robots" content="noindex">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Delabie Media</title>
-    <link rel="stylesheet" href="/style-global.css">
+    <link rel="stylesheet" href="style-global.css">
     <link rel="stylesheet" href="style-home.css">
     <link rel="shortcut icon" href="/assets/DelabieMedia_Favicon_128px.png" type="image/x-icon">
 </head>
@@ -53,7 +53,14 @@
             </div>
             <div class="video"> 
                 <iframe id="showreel" src="https://www.youtube-nocookie.com/embed/SRDN3N5zgBY?vq=hd1080&modestbranding=1&rel=0&controls=0" width="100%" height="100%" frameborder="0" allowfullscreen></iframe>
-                <script src="playShowreel.js"></script>
+                <script>
+                    async function playShowreel() {
+                        function playShowreelVideo() {
+                            document.getElementById("showreel").src = "https://www.youtube-nocookie.com/embed/SRDN3N5zgBY?vq=hd1080&autoplay=1&mute=1&modestbranding=1&rel=0&controls=1"
+                        }
+                        await playShowreelVideo();
+                    }
+                </script>
             </div>
         </div>
     </section>
@@ -85,9 +92,9 @@
             <div class="legal">
                 <a href="/cookies" class="cookies">cookies</a>
                 ·
-                <a href="/home" class="algemene-voorwaarden">algemene voorwaarden</a>
+                <a href="/" class="algemene-voorwaarden">algemene voorwaarden</a>
                 ·
-                <a href="/home" class="privacy">privacy</a>
+                <a href="/" class="privacy">privacy</a>
             </div>
         </div>
         <div class="right">
