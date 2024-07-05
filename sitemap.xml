@@ -7,17 +7,12 @@
 	</url>
 	<url>
 		<loc>https://www.delabiemedia.be/cookies</loc>
-		<priority>0.67</priority>
+		<priority>0.50</priority>
 		<lastmod>2024-07-05</lastmod>
 	</url>
 	<url>
 		<loc>https://www.delabiemedia.be/about</loc>
-		<priority>0.67</priority>
-		<lastmod>2024-07-05</lastmod>
-	</url>
-	<url>
-		<loc>https://www.delabiemedia.be/assets/stripes.html</loc>
-		<priority>0.33</priority>
+		<priority>0.50</priority>
 		<lastmod>2024-07-05</lastmod>
 	</url>
 </urlset>
