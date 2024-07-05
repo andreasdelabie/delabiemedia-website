@@ -161,13 +161,15 @@ footer {
     @media screen and (max-width: 768px) {
         display: block;
         text-align: center;
-        .info {
+        .left {
             display: block;
+            margin: 0 0 10px;
         }
-        .copyright {
+        .middle {
             display: block;
+            margin: 0 0 10px;
         }
-        .links {
+        .right {
             display: block;
         }
     }
