@@ -102,7 +102,7 @@ body {
     background-color: var(--grey);
     color: var(--white);
     text-align: center;
-    cursor: url("_assets/Cursor_Play.png"), auto;
+    cursor: url("assets/Cursor_Play.png"), auto;
     .content {
         display: flex;
         flex-direction: column;
