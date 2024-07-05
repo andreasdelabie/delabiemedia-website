@@ -78,50 +78,6 @@ body {
     }
 }
 
-.welcome {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 120vh;
-    background-color: var(--grey);
-    .logo {
-        width: 75vw;
-        max-width: 750px;
-        translate: 0px -250px;
-    }
-}
-
-.wat-wij-doen {
-    height: 100vh;
-    background-color: var(--grey);
-    color: var(--white);
-}
-
-.showcase {
-    height: 100vh;
-    background-color: var(--grey);
-    color: var(--white);
-    text-align: center;
-    cursor: url("assets/Cursor_Play.png"), auto;
-    .content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        .video {
-            margin: 25px;
-            width: 720px;
-            max-width: 100%;
-            aspect-ratio: 16 / 9;
-        }
-    }
-}
-
-.price {
-    height: 100vh;
-    background-color: var(--grey);
-    color: var(--white);
-}
-
 footer {
     display: grid;
     padding: 10px 50px 10px 50px;

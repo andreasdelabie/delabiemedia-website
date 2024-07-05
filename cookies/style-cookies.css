@@ -1,0 +1,24 @@
+@import url(/style-global.css);
+
+body {
+    margin: 0;
+    * {
+    font-family: Montserrat;
+    }
+    h2 {
+        font-size: 42px;
+        font-weight: 800;
+        margin: 0;
+    }
+    h3 {
+        font: 42px;
+    }
+    background-color: var(--grey);
+}
+
+.pdf {
+    margin: 0;
+    padding: 0;
+    height: 100lvh;
+    width: 100%;
+}
