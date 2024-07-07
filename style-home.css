@@ -3,12 +3,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 120vh;
+    height: 100vh;
     background-color: var(--grey);
     .logo {
         width: 75vw;
         max-width: 750px;
-        translate: 0px -250px;
     }
 }
 
