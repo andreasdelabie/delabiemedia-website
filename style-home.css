@@ -1,4 +1,8 @@
 @import url(/style-global.css);
+header {
+    transform: translateY(-100%);
+}
+
 .welcome {
     display: flex;
     align-items: center;
@@ -8,6 +12,7 @@
     .logo {
         width: 75vw;
         max-width: 750px;
+        opacity: 0;
     }
 }
 
