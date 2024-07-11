@@ -1,0 +1,36 @@
+@import url(/style-global.css);
+
+.empty {
+    height: 100vh;
+}
+
+.breakdown {
+    height: 100vh;
+    .before {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-size: cover;
+    }
+    .after {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-size: cover;
+        opacity: 0;
+    }
+    .before1 {
+        background-image: url(/assets/DelabieMedia_Breakdown_1_Before.jpg);
+        background-position: 89% 37.7%;
+    }
+    .after1 {
+        background-image: url(/assets/DelabieMedia_Breakdown_1_After.jpg);
+        background-position: 89% 37.7%;
+    }
+    .before2 {
+        background-image: url(/assets/DelabieMedia_Breakdown_2_Before.jpg);
+    }
+    .after2 {
+        background-image: url(/assets/DelabieMedia_Breakdown_2_After.jpg);
+    }
+}

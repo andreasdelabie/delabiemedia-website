@@ -41,11 +41,11 @@ body {
 }
 
 header {
-    opacity: 1;
     width: 100%;
     position: fixed;
     background-color: var(--grey);
     color: var(--white);
+    z-index: 1000;
     .header {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
