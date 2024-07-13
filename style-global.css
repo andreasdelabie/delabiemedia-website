@@ -7,7 +7,7 @@
 body {
     margin: 0;
     * {
-        font-family: Montserrat;
+        font-family: Montserrat, sans-serif;
     }
     h2 {
         font-size: 42px;
@@ -37,6 +37,21 @@ body {
             display: flex;
             justify-content: center;    
         }
+    }
+    button {
+        padding: 5px;
+        font-size: 1em;
+        font-weight: 600;
+        color: var(--white);
+        background-color: #404040;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        transition-duration: 0.5s;
+    }
+    button:hover {
+        background-color: var(--white);
+        color: var(--grey);
     }
 }
 
@@ -102,6 +117,30 @@ header {
             a {
                 text-decoration: none;
                 color: var(--white);
+            }
+        }
+        .menu {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            position: fixed;
+            left: 0;
+            top: 0;
+            align-items: center;
+            justify-content: center;
+            background-color: #404040;
+            transform: translateX(-100%);
+            a {
+                font-size: 42px;
+                font-weight: 600;
+                text-decoration: none;
+                color: var(--white);
+            }
+            .close-menu {
+                position: fixed;
+                right: 15px;
+                top: 15px;
             }
         }
         @media screen and (min-width: 768px) {

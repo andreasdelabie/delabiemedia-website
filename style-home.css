@@ -77,3 +77,17 @@ header {
     background-color: var(--grey);
     color: var(--white);
 }
+
+.contact {
+    height: 50vh;
+    background-color: var(--grey);
+    color: var(--white);
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        button {
+            margin-top: 25px;
+        }
+    }
+}
