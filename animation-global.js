@@ -1,13 +1,21 @@
 function showMenu() {
     gsap.to('.menu', {
-        duration: 0.5,
-        x: '0%'
+        x: '0%',
+        ease: 'power3.out'
+    })
+    gsap.from('.close-menu', {
+        rotation: -90,
+        ease: 'power3.out'
     })
 }
 
 function closeMenu() {
     gsap.to('.menu', {
-        duration: 0.5,
-        x: '-100%'
+        x: '-100%',
+        ease: 'power3.out'
+    })
+    gsap.from('.close-menu', {
+        rotation: 90,
+        ease: 'power3.out'
     })
 }
