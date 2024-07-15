@@ -5,8 +5,7 @@ body {
 }
 
 .pdf {
-    margin: 95px 0 0 0;
-    padding: 0;
-    height: 100lvh;
     width: 100%;
+    height: 100lvh;
+    margin: 95px 0 0 0;
 }
