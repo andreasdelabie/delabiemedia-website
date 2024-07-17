@@ -2,6 +2,14 @@
 :root {
     --grey: #1d1d1d;
     --white: rgb(240, 240, 240);
+    --logo-white: #d9d9d9;
+    --logo-yellow: #f9fb00;
+    --logo-cyan: #02feff;
+    --logo-green: #01ff00;
+    --logo-magenta: #fd00fb;
+    --logo-red: #fb0102;
+    --logo-blue: #0301fc;
+    --logo-black: #404040;
 }
 
 body {
@@ -59,7 +67,7 @@ body {
         font-size: 1rem;
         font-weight: 600;
         color: var(--white);
-        background-color: #404040;
+        background-color: var(--logo-black);
         border: none;
         border-radius: 10px;
         cursor: pointer;
@@ -147,7 +155,7 @@ header {
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            background-color: #404040;
+            background-color: var(--logo-black);
             transform: translateX(-100%);
             a {
                 font-size: 3rem;
@@ -168,6 +176,27 @@ header {
     }
 }
 
+.cookiebanner {
+    display: none;
+    max-width: 350px;
+    height: auto;
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+    z-index: 1000;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--white);
+    a {
+        text-decoration: none;
+        color: var(--logo-magenta);
+    }
+    a:hover {
+        text-decoration: underline;
+        color: var(--logo-green);
+    }
+}
+
 .title {
     max-width: fit-content;
     h2 {
@@ -180,28 +209,28 @@ header {
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
         column-gap: 3%;
         .white {
-            background-color: #d9d9d9;
+            background-color: var(--logo-white);
         }
         .yellow {
-            background-color: #f9fb00;
+            background-color: var(--logo-yellow);
         }
         .cyan {
-            background-color: #02feff;
+            background-color: var(--logo-cyan);
         }
         .green {
-            background-color: #01ff00;
+            background-color: var(--logo-green);
         }
         .magenta {
-            background-color: #fd00fb;
+            background-color: var(--logo-magenta);
         }
         .red {
-            background-color: #fb0102;
+            background-color: var(--logo-red);
         }
         .blue {
-            background-color: #0301fc;
+            background-color: var(--logo-blue);
         }
         .black {
-            background-color: #404040;
+            background-color: var(--logo-black);
         }
     }
 }
@@ -228,11 +257,11 @@ footer {
         }
         a {
             text-decoration: none;
-            color: #fd00fb;
+            color: var(--logo-magenta);
         }
         a:hover {
             text-decoration: underline;
-            color: #01ff00;
+            color: var(--logo-green);
         }
     }
     .right {
