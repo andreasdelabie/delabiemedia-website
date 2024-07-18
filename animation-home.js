@@ -24,3 +24,10 @@ gsap.to('.after2', {
     },
     opacity: 1
 })
+
+
+// Fixing stupid element with absolute positioning that positions wrong on load for a second...
+window.onload = function() {
+    var element = document.getElementById('breakdown-description');
+    element.style.display = 'block';
+}

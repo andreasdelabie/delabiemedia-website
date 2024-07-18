@@ -47,7 +47,8 @@ header {
 
 .breakdown {
     height: 100vh;
-    h2 {
+    .description {
+        display: none;
         position: absolute;
         left: 50px;
         bottom: 100px;
