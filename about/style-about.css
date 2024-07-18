@@ -1,1 +1,4 @@
-@import url(/style-global.css);
+.empty {
+    height: 100vh;
+    background-color: var(--white);
+}
