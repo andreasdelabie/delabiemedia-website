@@ -6,12 +6,7 @@
 		<lastmod>2024-07-20</lastmod>
 	</url>
 	<url>
-		<loc>https://www.delabiemedia.be/contact</loc>
-		<priority>0.50</priority>
-		<lastmod>2024-07-20</lastmod>
-	</url>
-	<url>
-		<loc>https://www.delabiemedia.be/404.html</loc>
+		<loc>https://www.delabiemedia.be/about</loc>
 		<priority>0.50</priority>
 		<lastmod>2024-07-20</lastmod>
 	</url>
@@ -21,7 +16,12 @@
 		<lastmod>2024-07-20</lastmod>
 	</url>
 	<url>
-		<loc>https://www.delabiemedia.be/about</loc>
+		<loc>https://www.delabiemedia.be/404.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2024-07-20</lastmod>
+	</url>
+	<url>
+		<loc>https://www.delabiemedia.be/contact</loc>
 		<priority>0.50</priority>
 		<lastmod>2024-07-20</lastmod>
 	</url>
