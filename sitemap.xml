@@ -1,28 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://www.delabiemedia.be</loc>
+		<loc>https://delabiemedia.be</loc>
 		<priority>1.00</priority>
-		<lastmod>2024-07-20</lastmod>
+		<lastmod>2024-07-22</lastmod>
 	</url>
 	<url>
-		<loc>https://www.delabiemedia.be/about</loc>
+		<loc>https://delabiemedia.be/cookies</loc>
 		<priority>0.50</priority>
-		<lastmod>2024-07-20</lastmod>
+		<lastmod>2024-07-22</lastmod>
 	</url>
 	<url>
-		<loc>https://www.delabiemedia.be/cookies</loc>
+		<loc>https://delabiemedia.be/contact</loc>
 		<priority>0.50</priority>
-		<lastmod>2024-07-20</lastmod>
+		<lastmod>2024-07-22</lastmod>
 	</url>
 	<url>
-		<loc>https://www.delabiemedia.be/404.html</loc>
+		<loc>https://delabiemedia.be/about</loc>
 		<priority>0.50</priority>
-		<lastmod>2024-07-20</lastmod>
+		<lastmod>2024-07-22</lastmod>
 	</url>
 	<url>
-		<loc>https://www.delabiemedia.be/contact</loc>
+		<loc>https://delabiemedia.be/404.html</loc>
 		<priority>0.50</priority>
-		<lastmod>2024-07-20</lastmod>
+		<lastmod>2024-07-22</lastmod>
+	</url>
+	<url>
+		<loc>https://delabiemedia.be/projecten</loc>
+		<priority>0.50</priority>
+		<lastmod>2024-07-22</lastmod>
 	</url>
 </urlset>
