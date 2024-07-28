@@ -20,6 +20,7 @@
 
 body {
     margin: 0;
+    background-color: var(--grey);
     * {
         font-family: Montserrat, sans-serif;
     }
@@ -83,7 +84,7 @@ body {
 header {
     width: 100%;
     position: fixed;
-    background-color: var(--grey);
+    background-color: rgba(29, 29, 29, 0.95);
     color: var(--white);
     z-index: 1000;
     .header {
@@ -155,7 +156,7 @@ header {
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            background-color: var(--logo-black);
+            background-color: rgba(64, 64, 64, 0.95);
             transform: translateX(-100%);
             a {
                 font-size: var(--fs-large);
