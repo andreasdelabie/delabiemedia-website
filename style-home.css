@@ -93,7 +93,7 @@ header {
 }
 
 .price {
-    height: 100vh;
+    height: min-content;
     background-color: var(--grey);
     color: var(--white);
     h3 {
@@ -101,6 +101,20 @@ header {
     }
     p {
         max-width: 444px;
+    }
+}
+
+.price-table {
+    height: min-content;
+    background-color: var(--grey);
+    color: var(--white);
+    .content {
+        .title {
+            margin-bottom: 25px;
+        }
+        h3 {
+            max-width: 300px;
+        }
     }
 }
 

@@ -59,8 +59,23 @@ body {
         background-color: var(--white);
         color: var(--grey);
     }
+    table, th, td {
+        text-align: start;
+        border: 1px solid var(--logo-black);
+        border-spacing: 0;
+        th, td {
+            padding: 5px;
+        }
+        th {
+            background-color: var(--logo-black);
+        }
+    }
+    .table-disclaimer {
+        color:hsl(0, 0%, 50%);
+        font-style: italic;
+    }
     .default-padding {
-        padding: 250px 100px 100px 100px;
+        padding: 100px 100px 100px 100px;
         @media screen and (max-width: 768px) {
             padding: 50px 10px 50px 10px
         }
