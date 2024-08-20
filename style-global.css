@@ -196,7 +196,7 @@ main-header {
     }
 }
 
-.cookiebanner {
+#cookiebanner {
     display: none;
     max-width: 350px;
     position: fixed;
