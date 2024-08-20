@@ -16,6 +16,9 @@
         .contact-options {
             display: flex;
             gap: 25px;
+            p {
+                margin-bottom: 0;
+            }
             a {
                 text-decoration: none;
                 color: var(--logo-magenta);

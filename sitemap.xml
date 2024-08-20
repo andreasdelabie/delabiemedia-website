@@ -3,32 +3,32 @@
 	<url>
 		<loc>https://delabiemedia.be</loc>
 		<priority>1.00</priority>
-		<lastmod>2024-08-08</lastmod>
-	</url>
-	<url>
-		<loc>https://delabiemedia.be/projecten</loc>
-		<priority>0.50</priority>
-		<lastmod>2024-07-25</lastmod>
-	</url>
-	<url>
-		<loc>https://delabiemedia.be/404.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2024-07-23</lastmod>
-	</url>
-	<url>
-		<loc>https://delabiemedia.be/about</loc>
-		<priority>0.50</priority>
-		<lastmod>2024-07-22</lastmod>
-	</url>
-	<url>
-		<loc>https://delabiemedia.be/contact</loc>
-		<priority>0.50</priority>
-		<lastmod>2024-07-23</lastmod>
+		<lastmod>2024-08-20</lastmod>
 	</url>
 	<url>
 		<loc>https://delabiemedia.be/cookies</loc>
 		<priority>0.50</priority>
-		<lastmod>2024-07-22</lastmod>
+		<lastmod>2024-08-20</lastmod>
+	</url>
+	<url>
+		<loc>https://delabiemedia.be/contact</loc>
+		<priority>0.50</priority>
+		<lastmod>2024-08-20</lastmod>
+	</url>
+	<url>
+		<loc>https://delabiemedia.be/about</loc>
+		<priority>0.50</priority>
+		<lastmod>2024-08-20</lastmod>
+	</url>
+	<url>
+		<loc>https://delabiemedia.be/404.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2024-08-20</lastmod>
+	</url>
+	<url>
+		<loc>https://delabiemedia.be/projecten</loc>
+		<priority>0.50</priority>
+		<lastmod>2024-08-20</lastmod>
 	</url>
 	<url>
 		<loc>https://delabiemedia.be/projecten/template.html</loc>

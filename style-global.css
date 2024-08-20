@@ -121,6 +121,10 @@ header {
                 text-decoration: none;
                 color: var(--white);
             }
+            a:hover {
+                color: var(--logo-green);
+                text-decoration: underline;
+            }
         }
         .right {
             display: flex;
