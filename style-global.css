@@ -96,7 +96,7 @@ body {
     }
 }
 
-header {
+main-header {
     width: 100%;
     position: fixed;
     background-color: rgba(29, 29, 29, 0.95);
@@ -254,7 +254,7 @@ header {
     }
 }
 
-footer {
+main-footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
