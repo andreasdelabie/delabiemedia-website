@@ -20,7 +20,7 @@ class mainHeader extends HTMLElement {
             </div>
             <div class="header-mobile">
                 <div class="left">
-                    <img src="/assets/DelabieMedia_Icon_Menu.svg" alt="Delabie Media logo" width="32px" onclick="showMenu()">
+                    <img src="/assets/icons/DelabieMedia_Icon_Menu.svg" alt="Delabie Media logo" width="32px" onclick="showMenu()">
                 </div>
                 <div class="middle">
                     <img src="/assets/DelabieMedia_Logo_Transparant_Wit.svg" alt="Delabie Media logo" height="50%">
@@ -34,7 +34,7 @@ class mainHeader extends HTMLElement {
                     <a href="/about">About</a>
                     <a href="/projecten">Projecten</a>
                     <a href="/contact">Contact</a>
-                    <img class="close-menu" src="/assets/DelabieMedia_Icon_Cross.svg" alt="Close menu" height="32px" onclick="closeMenu()">
+                    <img class="close-menu" src="/assets/icons/DelabieMedia_Icon_Cross.svg" alt="Close menu" height="32px" onclick="closeMenu()">
                 </div>
             </div>
         `
@@ -62,9 +62,9 @@ class mainFooter extends HTMLElement {
                 </div>
             </div>
             <div class="right">
-                <a href="https://www.instagram.com/delarmy_studios/" target="_blank"><img src="/assets/DelabieMedia_Icon_Instagram.svg" alt="Instagram logo" height="21px"></a>
-                <a href="https://www.facebook.com/profile.php?id=100072141171620" target="_blank"><img src="/assets/DelabieMedia_Icon_Facebook.svg" alt="Facebook logo" height="21px"></a>
-                <a href="https://www.youtube.com/@delarmy_studios" target="_blank"><img src="/assets/DelabieMedia_Icon_YouTube.svg" alt="YouTube logo" height="21px"></a>
+                <a href="https://www.instagram.com/delarmy_studios/" target="_blank"><img src="/assets/icons/DelabieMedia_Icon_Instagram.svg" alt="Instagram logo" height="21px"></a>
+                <a href="https://www.facebook.com/profile.php?id=100072141171620" target="_blank"><img src="/assets/icons/DelabieMedia_Icon_Facebook.svg" alt="Facebook logo" height="21px"></a>
+                <a href="https://www.youtube.com/@delarmy_studios" target="_blank"><img src="/assets/icons/DelabieMedia_Icon_YouTube.svg" alt="YouTube logo" height="21px"></a>
             </div>
         `
     }

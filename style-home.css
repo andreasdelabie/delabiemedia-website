@@ -75,19 +75,19 @@ main-header {
         opacity: 0;
     }
     .before1 {
-        background-image: url(/assets/DelabieMedia_Breakdown_1_Before.jpg);
+        background-image: url(/assets/images/DelabieMedia_Breakdown_1_Before.jpg);
         background-position: 47% 47.5%;
     }
     .after1 {
-        background-image: url(/assets/DelabieMedia_Breakdown_1_After.jpg);
+        background-image: url(/assets/images/DelabieMedia_Breakdown_1_After.jpg);
         background-position: 47% 47.5%;
     }
     .before2 {
-        background-image: url(/assets/DelabieMedia_Breakdown_2_Before.jpg);
+        background-image: url(/assets/images/DelabieMedia_Breakdown_2_Before.jpg);
         background-position: 53% 40%;
     }
     .after2 {
-        background-image: url(/assets/DelabieMedia_Breakdown_2_After.jpg);
+        background-image: url(/assets/images/DelabieMedia_Breakdown_2_After.jpg);
         background-position: 53% 40%;
     }
 }
@@ -111,6 +111,10 @@ main-header {
     .content {
         .title {
             margin-bottom: 25px;
+        }
+        .table-disclaimer {
+            color:hsl(0, 0%, 50%);
+            font-style: italic;
         }
         h3 {
             max-width: 300px;
