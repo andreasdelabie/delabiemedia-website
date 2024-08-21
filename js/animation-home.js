@@ -31,7 +31,7 @@ gsap.to('.after2', {
 // Fixing stupid element with absolute positioning that positions wrong on load for a second...
 window.onload = function() {
     var element = document.querySelectorAll('#breakdown-description');
-    for (var i = 0, max = element.length; i < max; i++) {
+    for (var i = 0, max = element.length; i < max; i++) { // Repeats function for each stupid element
         element[i].style.display = 'block';
     }
 }

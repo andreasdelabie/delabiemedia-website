@@ -6,19 +6,9 @@
 		<lastmod>2024-08-21</lastmod>
 	</url>
 	<url>
-		<loc>https://delabiemedia.be/cookies</loc>
+		<loc>https://delabiemedia.be/projecten</loc>
 		<priority>0.50</priority>
-		<lastmod>2024-08-20</lastmod>
-	</url>
-	<url>
-		<loc>https://delabiemedia.be/contact</loc>
-		<priority>0.50</priority>
-		<lastmod>2024-08-20</lastmod>
-	</url>
-	<url>
-		<loc>https://delabiemedia.be/about</loc>
-		<priority>0.50</priority>
-		<lastmod>2024-08-20</lastmod>
+		<lastmod>2024-08-21</lastmod>
 	</url>
 	<url>
 		<loc>https://delabiemedia.be/404.html</loc>
@@ -26,7 +16,17 @@
 		<lastmod>2024-08-21</lastmod>
 	</url>
 	<url>
-		<loc>https://delabiemedia.be/projecten</loc>
+		<loc>https://delabiemedia.be/about</loc>
+		<priority>0.50</priority>
+		<lastmod>2024-08-21</lastmod>
+	</url>
+	<url>
+		<loc>https://delabiemedia.be/contact</loc>
+		<priority>0.50</priority>
+		<lastmod>2024-08-21</lastmod>
+	</url>
+	<url>
+		<loc>https://delabiemedia.be/cookies</loc>
 		<priority>0.50</priority>
 		<lastmod>2024-08-21</lastmod>
 	</url>

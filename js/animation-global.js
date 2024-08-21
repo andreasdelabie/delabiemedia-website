@@ -1,3 +1,4 @@
+// Show menu animation
 function showMenu() {
     gsap.to('.menu', {
         x: '0%',
@@ -9,6 +10,8 @@ function showMenu() {
     })
 }
 
+
+// Close menu animation
 function closeMenu() {
     gsap.to('.menu', {
         x: '-100%',

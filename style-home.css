@@ -31,7 +31,7 @@ main-header {
     background-color: var(--grey);
     color: var(--white);
     text-align: center;
-    cursor: url("assets/DelabieMedia_Cursor_Play.png"), auto;
+    cursor: url("assets/graphics/DelabieMedia_Cursor_Play.png"), auto;
     .content {
         width: 100%;
         display: flex;

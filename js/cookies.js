@@ -1,4 +1,5 @@
-function setCookie(cname, cvalue, exdays) {
+// Define function for saving cookies
+function setCookie(cname, cvalue, exdays) { // Parameters: cookie name, cookie value, days to expire (in days)
     const d = new Date();
     d.setTime(d.getTime() + (exdays*24*60*60*1000));
 
@@ -7,7 +8,9 @@ function setCookie(cname, cvalue, exdays) {
     document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
 }
 
-function getCookie(cname) {
+
+// Define function for retrieving cookies
+function getCookie(cname) { // Parameters: cookie name
     let name = cname + "=";
     let decodedCookie = decodeURIComponent(document.cookie);
     let ca = decodedCookie.split(';');
@@ -26,14 +29,15 @@ function getCookie(cname) {
 }
 
 
-// Check if cookies have been accepted before
 var acceptedCookies = getCookie('acceptedCookies')
 const cookiebanner = document.getElementById('cookiebanner')
 
+
+// Check if cookies have been accepted before & hides banner if yes
 if(acceptedCookies == 'true'){
-    cookiebanner.style.display = 'none' // Hide cookie banner if yes
-}else {
-    cookiebanner.style.display = 'block' // Show cookie banner if no
+    cookiebanner.style.display = 'none'
+} else {
+    cookiebanner.style.display = 'block'
 }
 
 
