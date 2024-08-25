@@ -53,7 +53,7 @@ body {
         }
     }
     @media screen and (max-width: 768px) {
-        padding: 100px 10px 50px 10px;
+        padding: 125px 10px 50px 10px;
     }
 }
 
@@ -75,6 +75,9 @@ body {
         .video {
             width: min(500px, 100%);
             aspect-ratio: 16 / 9;
+            iframe {
+                border-radius: 10px;
+            }
         }
         .description {
             a {
@@ -88,6 +91,6 @@ body {
         }
     }
     @media screen and (max-width: 768px) {
-        padding: 100px 10px 50px 10px;
+        padding: 125px 10px 50px 10px;
     }
 }

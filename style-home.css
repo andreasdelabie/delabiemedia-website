@@ -47,6 +47,7 @@ header {
 
 .breakdown {
     height: 100vh;
+    will-change: transform;
     .description {
         display: none;
         position: absolute;
