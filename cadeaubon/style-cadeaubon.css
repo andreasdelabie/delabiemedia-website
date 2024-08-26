@@ -1,0 +1,22 @@
+.cadeaubonnen {
+    min-height: 100vh;
+    max-height: fit-content;
+    padding: 200px 100px 100px 100px;
+    @media screen and (max-width: 768px) {
+        padding: 125px 10px 50px 10px;
+    }
+    display: flex;
+    justify-content: center;
+    background-color: var(--white);
+    .content {
+        width: clamp(300px, 80vw, 1200px);
+        a {
+            color: var(--logo-magenta);
+            text-decoration: none;
+        }
+        a:hover {
+            color: var(--logo-green);
+            text-decoration: underline;
+        }
+    }
+}

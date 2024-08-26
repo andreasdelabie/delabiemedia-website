@@ -1,5 +1,9 @@
 .contact {
     height: 100vh;
+    padding: 0 100px 0 100px;
+    @media screen and (max-width: 768px) {
+        padding: 0 10px 0 10px;
+    }
     display: flex;
     align-items: center;
     justify-content: center;

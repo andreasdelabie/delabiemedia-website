@@ -44,6 +44,11 @@ body {
         font-size: var(--fs-small);
         line-height: 1.2em;
     }
+    ul, li {
+        font-size: var(--fs-small);
+        line-height: 1.2em;
+        margin: 0.5em 0 0.5em;
+    }
     button {
         padding: 5px;
         background-color: var(--logo-black);
