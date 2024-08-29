@@ -6,22 +6,7 @@
 		<lastmod>2024-08-29</lastmod>
 	</url>
 	<url>
-		<loc>https://delabiemedia.be/404.html</loc>
-		<priority>0.75</priority>
-		<lastmod>2024-08-29</lastmod>
-	</url>
-	<url>
-		<loc>https://delabiemedia.be/about</loc>
-		<priority>0.75</priority>
-		<lastmod>2024-08-29</lastmod>
-	</url>
-	<url>
-		<loc>https://delabiemedia.be/contact</loc>
-		<priority>0.75</priority>
-		<lastmod>2024-08-29</lastmod>
-	</url>
-	<url>
-		<loc>https://delabiemedia.be/cookies</loc>
+		<loc>https://delabiemedia.be/reviews</loc>
 		<priority>0.75</priority>
 		<lastmod>2024-08-29</lastmod>
 	</url>
@@ -31,22 +16,27 @@
 		<lastmod>2024-08-29</lastmod>
 	</url>
 	<url>
-		<loc>https://delabiemedia.be/reviews</loc>
+		<loc>https://delabiemedia.be/cookies</loc>
 		<priority>0.75</priority>
 		<lastmod>2024-08-29</lastmod>
 	</url>
 	<url>
-		<loc>https://delabiemedia.be/projecten/2023/Openkunstendag2023KunsthumanioraSintLucasGent</loc>
-		<priority>0.25</priority>
+		<loc>https://delabiemedia.be/contact</loc>
+		<priority>0.75</priority>
 		<lastmod>2024-08-29</lastmod>
 	</url>
 	<url>
-		<loc>https://delabiemedia.be/projecten/2023/showreel</loc>
-		<priority>0.25</priority>
+		<loc>https://delabiemedia.be/about</loc>
+		<priority>0.75</priority>
 		<lastmod>2024-08-29</lastmod>
 	</url>
 	<url>
-		<loc>https://delabiemedia.be/projecten/2023/verbinding</loc>
+		<loc>https://delabiemedia.be/404.html</loc>
+		<priority>0.75</priority>
+		<lastmod>2024-08-29</lastmod>
+	</url>
+	<url>
+		<loc>https://delabiemedia.be/projecten/2024/vivlia</loc>
 		<priority>0.25</priority>
 		<lastmod>2024-08-29</lastmod>
 	</url>
@@ -56,7 +46,17 @@
 		<lastmod>2024-08-29</lastmod>
 	</url>
 	<url>
-		<loc>https://delabiemedia.be/projecten/2024/vivlia</loc>
+		<loc>https://delabiemedia.be/projecten/2023/verbinding</loc>
+		<priority>0.25</priority>
+		<lastmod>2024-08-29</lastmod>
+	</url>
+	<url>
+		<loc>https://delabiemedia.be/projecten/2023/showreel</loc>
+		<priority>0.25</priority>
+		<lastmod>2024-08-29</lastmod>
+	</url>
+	<url>
+		<loc>https://delabiemedia.be/projecten/2023/Openkunstendag2023KunsthumanioraSintLucasGent</loc>
 		<priority>0.25</priority>
 		<lastmod>2024-08-29</lastmod>
 	</url>
