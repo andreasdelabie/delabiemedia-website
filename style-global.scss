@@ -81,19 +81,17 @@ body {
             padding: 50px 10px 50px 10px
         }
     }
-    @media screen and (min-width: 768px) {
-        .flex-start {
-            display: flex;
-            justify-content: start;
-        }
-        .flex-end {
-            display: flex;
-            justify-content: end;
-        }
-        .flex-center {
-            display: flex;
-            justify-content: center;
-        }
+    .flex-start {
+        display: flex;
+        justify-content: start;
+    }
+    .flex-end {
+        display: flex;
+        justify-content: end;
+    }
+    .flex-center {
+        display: flex;
+        justify-content: center;
     }
 }
 
