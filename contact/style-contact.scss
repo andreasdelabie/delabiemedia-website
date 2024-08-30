@@ -26,10 +26,10 @@
             a {
                 text-decoration: none;
                 color: var(--logo-magenta);
-            }
-            a:hover {
-                text-decoration: underline;
-                color: var(--logo-green);
+                &:hover {
+                    text-decoration: underline;
+                    color: var(--logo-green);
+                }
             }
             @media screen and (max-width: 768px) {
                 flex-direction: column;

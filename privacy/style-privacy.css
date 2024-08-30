@@ -1,4 +1,4 @@
-.giftcards {
+.privacy-disclaimer {
   min-height: 100vh;
   padding: 200px 100px 100px 100px;
   display: -webkit-box;
@@ -10,18 +10,19 @@
   background-color: var(--white);
 }
 @media screen and (max-width: 768px) {
-  .giftcards {
+  .privacy-disclaimer {
     padding: 125px 10px 50px 10px;
   }
 }
-.giftcards .content {
+.privacy-disclaimer .content {
   width: clamp(300px, 80vw, 1200px);
 }
-.giftcards .content a {
+.privacy-disclaimer .content a {
   color: var(--logo-magenta);
   text-decoration: none;
+  overflow-wrap: anywhere;
 }
-.giftcards .content a:hover {
+.privacy-disclaimer .content a:hover {
   color: var(--logo-green);
   text-decoration: underline;
 }

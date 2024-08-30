@@ -62,7 +62,7 @@ class mainFooter extends HTMLElement {
                         ·
                         <a href="/" class="algemene-voorwaarden">algemene voorwaarden</a>
                         ·
-                        <a href="/" class="privacy">privacy</a>
+                        <a href="/privacy" class="privacy">privacy</a>
                     </div>
                 </div>
                 <div class="right">

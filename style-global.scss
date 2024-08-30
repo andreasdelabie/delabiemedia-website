@@ -43,7 +43,7 @@ body {
         font-size: var(--fs-small);
         line-height: 1.2em;
     }
-    ul, li {
+    ul, ol, li {
         font-size: var(--fs-small);
         line-height: 1.2em;
         margin: 0.5em 0 0.5em;
@@ -58,10 +58,10 @@ body {
         color: var(--white);
         cursor: pointer;
         transition-duration: 0.5s;
-    }
-    button:hover {
-        background-color: var(--white);
-        color: var(--grey);
+        &:hover {
+            background-color: var(--white);
+            color: var(--grey);
+        }
     }
     table, th, td {
         text-align: start;
@@ -118,10 +118,10 @@ header {
             a {
                 text-decoration: none;
                 color: var(--white);
-            }
-            a:hover {
-                color: var(--logo-green);
-                text-decoration: underline;
+                &:hover {
+                    color: var(--logo-green);
+                    text-decoration: underline;
+                }
             }
         }
         .right {
@@ -256,10 +256,10 @@ footer {
         a {
             text-decoration: none;
             color: var(--logo-magenta);
-        }
-        a:hover {
-            text-decoration: underline;
-            color: var(--logo-green);
+            &:hover {
+                text-decoration: underline;
+                color: var(--logo-green);
+            }
         }
     }
     .right {
@@ -298,9 +298,9 @@ footer {
     a {
         text-decoration: none;
         color: var(--logo-magenta);
-    }
-    a:hover {
-        text-decoration: underline;
-        color: var(--logo-green);
+        &:hover {
+            text-decoration: underline;
+            color: var(--logo-green);
+        }
     }
 }
