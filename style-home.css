@@ -20,6 +20,7 @@ header {
 }
 .welcome .logo {
   width: min(750px, 75vw);
+  opacity: 0;
 }
 .welcome #arrow {
   position: absolute;
