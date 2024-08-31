@@ -6,6 +6,7 @@ header {
 
 .welcome {
   height: 100vh;
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -19,7 +20,11 @@ header {
 }
 .welcome .logo {
   width: min(750px, 75vw);
-  opacity: 0;
+}
+.welcome #arrow {
+  position: absolute;
+  bottom: 50px;
+  opacity: 0.25;
 }
 
 .wat-wij-doen {

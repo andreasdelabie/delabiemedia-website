@@ -3,7 +3,7 @@
 	<url>
 		<loc>https://delabiemedia.be</loc>
 		<priority>1.00</priority>
-		<lastmod>2024-08-30</lastmod>
+		<lastmod>2024-08-31</lastmod>
 	</url>
 	<url>
 		<loc>https://delabiemedia.be/reviews</loc>
@@ -16,12 +16,22 @@
 		<lastmod>2024-08-29</lastmod>
 	</url>
 	<url>
+		<loc>https://delabiemedia.be/privacy</loc>
+		<priority>0.75</priority>
+		<lastmod>2024-08-30</lastmod>
+	</url>
+	<url>
 		<loc>https://delabiemedia.be/cookies</loc>
 		<priority>0.75</priority>
 		<lastmod>2024-08-30</lastmod>
 	</url>
 	<url>
 		<loc>https://delabiemedia.be/contact</loc>
+		<priority>0.75</priority>
+		<lastmod>2024-08-29</lastmod>
+	</url>
+	<url>
+		<loc>https://delabiemedia.be/cadeaubon</loc>
 		<priority>0.75</priority>
 		<lastmod>2024-08-29</lastmod>
 	</url>

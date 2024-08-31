@@ -51,7 +51,7 @@ class mainFooter extends HTMLElement {
         this.outerHTML = `
             <footer>
                 <div class="left">
-                    <p>BTW BE 0123 456 789<br>Dorp-Oost 160, 9080 Lochristi</p>
+                    <p>Dorp-Oost 160, 9080 Lochristi</p>
                 </div>
                 <div class="middle">
                     <div class="copyright">
@@ -66,9 +66,14 @@ class mainFooter extends HTMLElement {
                     </div>
                 </div>
                 <div class="right">
-                    <a href="https://www.instagram.com/delarmy_studios/" target="_blank"><img src="/assets/icons/DelabieMedia_Icon_Instagram.svg" alt="Instagram logo" height="21px"></a>
-                    <a href="https://www.facebook.com/profile.php?id=100072141171620" target="_blank"><img src="/assets/icons/DelabieMedia_Icon_Facebook.svg" alt="Facebook logo" height="21px"></a>
-                    <a href="https://www.youtube.com/@delarmy_studios" target="_blank"><img src="/assets/icons/DelabieMedia_Icon_YouTube.svg" alt="YouTube logo" height="21px"></a>
+                    <div class="socials">
+                        <a href="https://www.instagram.com/delarmy_studios/" target="_blank"><img src="/assets/icons/DelabieMedia_Icon_Instagram.svg" alt="Instagram logo" height="21px"></a>
+                        <a href="https://www.facebook.com/profile.php?id=100072141171620" target="_blank"><img src="/assets/icons/DelabieMedia_Icon_Facebook.svg" alt="Facebook logo" height="21px"></a>
+                        <a href="https://www.youtube.com/@delarmy_studios" target="_blank"><img src="/assets/icons/DelabieMedia_Icon_YouTube.svg" alt="YouTube logo" height="21px"></a>
+                    </div>
+                    <div class="attribution">
+                        Uicons by <a href="https://www.flaticon.com/uicons" target="_blank">Flaticon</a>
+                    </div>
                 </div>
             </footer>
         `

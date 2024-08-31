@@ -1,11 +1,24 @@
 gsap.registerPlugin(ScrollTrigger);
 
 
-// Homepage logo & header loading animation
+// Arrow scroll animation
+gsap.to('#arrow', {
+    scrollTrigger: {
+        trigger: '.welcome',
+        start: 'top top',
+        end: '+=200',
+        scrub: 0.5,
+    },
+    opacity: 0,
+})
+
+
+// Homepage loading animation
 const timeline = gsap.timeline()
 timeline
-    .to('.logo', {duration: 1, opacity: 1, ease: 'power1.in'})
-    .to('header', {duration: 1, delay: '.5', y: '0%', ease: 'power3.out'})
+    .from('.logo', {duration: 1, opacity: 0, ease: 'power1.in'})
+    .to('header', {duration: 1, delay: 0.5, y: '0%', ease: 'power3.out'})
+    .from('#arrow', {duration: 1, y: '-50%', opacity: 0, ease: 'power3.out'})
 
 
 // Breakdown scroll animations
@@ -14,7 +27,7 @@ gsap.to('.after1', {
         trigger: '.breakdown1',
         scrub: true,
         pin: '.breakdown1',
-        pinType: 'fixed'
+        pinType: 'fixed',
     },
     opacity: 1
 })

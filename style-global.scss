@@ -264,9 +264,23 @@ footer {
     }
     .right {
         display: flex;
-        align-items: center;
-        justify-content: end;
-        gap: 15px;
+        flex-direction: column;
+        align-items: end;
+        justify-content: center;
+        .socials {
+            display: flex;
+            gap: 15px;
+        }
+        .attribution {
+            a {
+                text-decoration: none;
+                color: var(--logo-magenta);
+                &:hover {
+                    text-decoration: underline;
+                    color: var(--logo-green);
+                }
+            }
+        }
     }
     @media screen and (max-width: 768px) {
         display: block;
@@ -280,7 +294,7 @@ footer {
             margin: 0 0 10px;
         }
         .right {
-            justify-content: center;
+            align-items: center;
         }
     }
 }
