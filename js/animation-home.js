@@ -10,6 +10,7 @@ gsap.to('#arrow', {
         scrub: 0.5,
     },
     opacity: 0,
+    y: '-50%'
 })
 
 
@@ -18,7 +19,7 @@ const timeline = gsap.timeline()
 timeline
     .from('.logo', {duration: 1, opacity: 0, ease: 'power1.in'})
     .to('header', {duration: 1, delay: 0.5, y: '0%', ease: 'power3.out'})
-    .from('#arrow', {duration: 1, y: '-50%', opacity: 0, ease: 'power3.out'})
+    .from('#arrow', {duration: 1, opacity: 0, y: '-50%', ease: 'power3.out'})
 
 
 // Breakdown scroll animations
