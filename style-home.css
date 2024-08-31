@@ -26,6 +26,11 @@ header {
   bottom: 50px;
   opacity: 0.25;
 }
+@media screen and (max-width: 768px) {
+  .welcome #arrow {
+    bottom: 100px;
+  }
+}
 
 .wat-wij-doen {
   height: 50vh;

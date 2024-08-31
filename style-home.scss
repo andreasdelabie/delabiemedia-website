@@ -16,6 +16,9 @@ header {
         position: absolute;
         bottom: 50px;
         opacity: 0.25;
+        @media screen and (max-width: 768px) {
+            bottom: 100px;
+        }
     }
 }
 
