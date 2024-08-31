@@ -36,14 +36,24 @@
 		<lastmod>2024-08-29</lastmod>
 	</url>
 	<url>
-		<loc>https://delabiemedia.be/about</loc>
-		<priority>0.75</priority>
-		<lastmod>2024-08-29</lastmod>
-	</url>
-	<url>
 		<loc>https://delabiemedia.be/404.html</loc>
 		<priority>0.75</priority>
-		<lastmod>2024-08-29</lastmod>
+		<lastmod>2024-08-31</lastmod>
+	</url>
+	<url>
+		<loc>https://delabiemedia.be/about/_index.html</loc>
+		<priority>0.75</priority>
+		<lastmod>2024-08-31</lastmod>
+	</url>
+	<url>
+		<loc>https://delabiemedia.be/about</loc>
+		<priority>0.50</priority>
+		<lastmod>2024-08-31</lastmod>
+	</url>
+	<url>
+		<loc>https://delabiemedia.be/algemene-voorwaarden</loc>
+		<priority>0.50</priority>
+		<lastmod>2024-08-31</lastmod>
 	</url>
 	<url>
 		<loc>https://delabiemedia.be/projecten/2024/vivlia</loc>
