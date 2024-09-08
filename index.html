@@ -28,8 +28,6 @@
     <link rel="stylesheet" href="/style-home.css">
     <link rel="shortcut icon" href="/assets/DelabieMedia_Favicon_128px.png" type="image/x-icon">
     <script src="/js/customelements.js" defer></script>
-    <script src="/js/animation-global.js" defer></script>
-    <script src="/js/animation-home.js" defer></script>
     <script src="/js/cookies.js" defer></script>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -38,6 +36,8 @@
     <!-- Gsap -->
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
+    <script src="/js/animation-global.js" defer></script>
+    <script src="/js/animation-home.js" defer></script>
     <!-- Google Tag -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-HXHVPSX22F"></script>
     <script>
@@ -55,7 +55,9 @@
             <div class="content">
                 <img class="logo" src="/assets/DelabieMedia_Logo_Transparant_Wit.svg" alt="Delabie Media Logo">
             </div>
-            <img id="arrow" src="/assets/icons/DelabieMedia_Icon_ArrowDown.svg" alt="Arrow down" height="32px">
+            <div id="arrow">
+                <img id="arrow-icon" src="/assets/icons/DelabieMedia_Icon_ArrowDown.svg" alt="Arrow down" height="32px">
+            </div>
         </section>
         <section class="wat-wij-doen default-padding flex-end">
             <div class="content">

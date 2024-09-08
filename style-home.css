@@ -24,12 +24,12 @@ header {
 }
 .welcome #arrow {
   position: absolute;
-  bottom: 50px;
-  opacity: 0.25;
+  bottom: 100px;
+  opacity: 0;
 }
 @media screen and (max-width: 768px) {
   .welcome #arrow {
-    bottom: 100px;
+    bottom: 150px;
   }
 }
 
