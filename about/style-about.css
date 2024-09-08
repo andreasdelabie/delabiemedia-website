@@ -1,4 +1,28 @@
-.empty {
-  height: 100vh;
+.about {
+  min-height: 100vh;
   background-color: var(--white);
+  padding: 200px 100px 100px 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: var(--white);
+}
+@media screen and (max-width: 768px) {
+  .about {
+    padding: 125px 10px 50px 10px;
+  }
+}
+.about .content {
+  width: clamp(300px, 80vw, 500px);
+}
+.about .content a {
+  color: var(--logo-magenta);
+  text-decoration: none;
+}
+.about .content a:hover {
+  color: var(--logo-green);
+  text-decoration: underline;
 }

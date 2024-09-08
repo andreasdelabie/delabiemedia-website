@@ -1,4 +1,22 @@
-.empty {
-    height: 100vh;
+.about  {
+    min-height: 100vh;
     background-color: var(--white);
+    padding: 200px 100px 100px 100px;
+    @media screen and (max-width: 768px) {
+        padding: 125px 10px 50px 10px;
+    }
+    display: flex;
+    justify-content: center;
+    background-color: var(--white);
+    .content {
+        width: clamp(300px, 80vw, 500px);
+        a {
+            color: var(--logo-magenta);
+            text-decoration: none;
+            &:hover {
+                color: var(--logo-green);
+                text-decoration: underline;
+            }
+        }
+    }
 }
