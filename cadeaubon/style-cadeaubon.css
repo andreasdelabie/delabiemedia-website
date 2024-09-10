@@ -15,7 +15,8 @@
   }
 }
 .giftcards .content {
-  width: clamp(300px, 80vw, 1200px);
+  max-width: 75ch;
+  text-wrap: balance;
 }
 .giftcards .content a {
   color: var(--logo-magenta);

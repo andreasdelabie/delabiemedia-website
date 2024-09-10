@@ -8,7 +8,8 @@
     justify-content: center;
     background-color: var(--white);
     .content {
-        width: clamp(300px, 80vw, 1200px);
+        max-width: 75ch;
+        text-wrap: balance;
         a {
             color: var(--logo-magenta);
             text-decoration: none;
