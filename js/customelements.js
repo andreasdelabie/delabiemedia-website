@@ -65,9 +65,9 @@ class mainFooter extends HTMLElement {
                 </div>
                 <div class="right">
                     <div class="socials">
-                        <a href="https://www.instagram.com/delarmy_studios/" target="_blank"><img src="/assets/icons/DelabieMedia_Icon_Instagram.svg" alt="Instagram logo" height="21px"></a>
+                        <a href="https://www.instagram.com/delabie_media" target="_blank"><img src="/assets/icons/DelabieMedia_Icon_Instagram.svg" alt="Instagram logo" height="21px"></a>
                         <a href="https://www.facebook.com/profile.php?id=100072141171620" target="_blank"><img src="/assets/icons/DelabieMedia_Icon_Facebook.svg" alt="Facebook logo" height="21px"></a>
-                        <a href="https://www.youtube.com/@delarmy_studios" target="_blank"><img src="/assets/icons/DelabieMedia_Icon_YouTube.svg" alt="YouTube logo" height="21px"></a>
+                        <a href="https://www.youtube.com/@delabie_media" target="_blank"><img src="/assets/icons/DelabieMedia_Icon_YouTube.svg" alt="YouTube logo" height="21px"></a>
                     </div>
                     <div class="attribution">
                         Uicons by <a href="https://www.flaticon.com/uicons" target="_blank">Flaticon</a>
