@@ -53,19 +53,45 @@ body ul, body ol, body li {
 }
 body button {
   padding: 5px;
-  background-color: var(--logo-black);
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
   border: none;
   border-radius: 10px;
+  background-color: var(--logo-black);
   font-size: var(--fs-small);
   font-weight: 600;
   color: var(--white);
   cursor: pointer;
-  -webkit-transition-duration: 0.5s;
-          transition-duration: 0.5s;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
 }
-body button:hover {
+body button::after {
+  content: "";
+  width: 0;
+  aspect-ratio: 1/1;
+  position: absolute;
+  top: var(--mouse-leave-y);
+  left: var(--mouse-leave-x);
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: -1;
+  border-radius: 100%;
   background-color: var(--white);
+  pointer-events: none;
+  -webkit-transition: width 0.5s ease-out, top 0.1s ease, left 0.1s ease;
+  transition: width 0.5s ease-out, top 0.1s ease, left 0.1s ease;
+}
+body button:hover, body button:focus-visible {
   color: var(--grey);
+}
+body button:hover::after, body button:focus-visible::after {
+  width: 200%;
+  top: var(--mouse-enter-y);
+  left: var(--mouse-enter-x);
+  -webkit-transition: width 0.5s ease-in;
+  transition: width 0.5s ease-in;
 }
 body table, body th, body td {
   text-align: start;

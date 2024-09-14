@@ -22,3 +22,27 @@ function closeMenu() {
         ease: 'power3.out'
     })
 }
+
+
+// Button hover animation
+const buttons = document.querySelectorAll('button');
+
+buttons.forEach(button => {
+    const buttonMousePosition = (event) => {
+        const rect = button.getBoundingClientRect();
+
+        const x = event.clientX - rect.left;
+        const y = event.clientY - rect.top;
+        
+        if(event.type === 'mouseenter') {
+            button.style.setProperty('--mouse-enter-x', `${x}px`)
+            button.style.setProperty('--mouse-enter-y', `${y}px`)
+        } else if (event.type === 'mouseleave') {
+            button.style.setProperty('--mouse-leave-x', `${x}px`)
+            button.style.setProperty('--mouse-leave-y', `${y}px`)
+        }
+    }
+    
+    button.addEventListener('mouseenter', buttonMousePosition)
+    button.addEventListener('mouseleave', buttonMousePosition)
+})
