@@ -3,12 +3,7 @@
 	<url>
 		<loc>https://delabiemedia.be</loc>
 		<priority>1.00</priority>
-		<lastmod>2024-09-08</lastmod>
-	</url>
-	<url>
-		<loc>https://delabiemedia.be/about</loc>
-		<priority>0.75</priority>
-		<lastmod>2024-09-08</lastmod>
+		<lastmod>2024-09-19</lastmod>
 	</url>
 	<url>
 		<loc>https://delabiemedia.be/reviews</loc>
@@ -18,56 +13,66 @@
 	<url>
 		<loc>https://delabiemedia.be/projecten</loc>
 		<priority>0.75</priority>
-		<lastmod>2024-09-08</lastmod>
+		<lastmod>2024-09-19</lastmod>
 	</url>
 	<url>
 		<loc>https://delabiemedia.be/privacy</loc>
 		<priority>0.75</priority>
-		<lastmod>2024-09-10</lastmod>
+		<lastmod>2024-09-19</lastmod>
 	</url>
 	<url>
 		<loc>https://delabiemedia.be/cookies</loc>
 		<priority>0.75</priority>
-		<lastmod>2024-09-08</lastmod>
+		<lastmod>2024-09-19</lastmod>
 	</url>
 	<url>
 		<loc>https://delabiemedia.be/contact</loc>
 		<priority>0.75</priority>
-		<lastmod>2024-09-08</lastmod>
+		<lastmod>2024-09-19</lastmod>
 	</url>
 	<url>
 		<loc>https://delabiemedia.be/cadeaubon</loc>
 		<priority>0.75</priority>
-		<lastmod>2024-09-08</lastmod>
+		<lastmod>2024-09-19</lastmod>
+	</url>
+	<url>
+		<loc>https://delabiemedia.be/about</loc>
+		<priority>0.75</priority>
+		<lastmod>2024-09-19</lastmod>
 	</url>
 	<url>
 		<loc>https://delabiemedia.be/404.html</loc>
 		<priority>0.75</priority>
-		<lastmod>2024-09-08</lastmod>
+		<lastmod>2024-09-19</lastmod>
+	</url>
+	<url>
+		<loc>https://delabiemedia.be/algemene-voorwaarden/_index.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2024-09-19</lastmod>
 	</url>
 	<url>
 		<loc>https://delabiemedia.be/projecten/2024/vivlia</loc>
 		<priority>0.25</priority>
-		<lastmod>2024-09-08</lastmod>
+		<lastmod>2024-09-19</lastmod>
 	</url>
 	<url>
 		<loc>https://delabiemedia.be/projecten/2024/LaLuneJexiste</loc>
 		<priority>0.25</priority>
-		<lastmod>2024-09-08</lastmod>
+		<lastmod>2024-09-19</lastmod>
 	</url>
 	<url>
 		<loc>https://delabiemedia.be/projecten/2023/verbinding</loc>
 		<priority>0.25</priority>
-		<lastmod>2024-09-08</lastmod>
+		<lastmod>2024-09-19</lastmod>
 	</url>
 	<url>
 		<loc>https://delabiemedia.be/projecten/2023/showreel</loc>
 		<priority>0.25</priority>
-		<lastmod>2024-09-08</lastmod>
+		<lastmod>2024-09-19</lastmod>
 	</url>
 	<url>
 		<loc>https://delabiemedia.be/projecten/2023/Openkunstendag2023KunsthumanioraSintLucasGent</loc>
 		<priority>0.25</priority>
-		<lastmod>2024-09-08</lastmod>
+		<lastmod>2024-09-19</lastmod>
 	</url>
 </urlset>
