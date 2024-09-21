@@ -52,6 +52,7 @@ class mainFooter extends HTMLElement {
             <footer>
                 <div class="left">
                     <p>Dorp-Oost 160, 9080 Lochristi</p>
+                    <p>Powered by <a href="https://amplo.be/" target="_blank">Amplo</a></p>
                 </div>
                 <div class="middle">
                     <div class="copyright">
