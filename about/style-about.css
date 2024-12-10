@@ -1,6 +1,5 @@
 .about {
   min-height: 100vh;
-  background-color: var(--white);
   padding: 200px 100px 100px 100px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -16,8 +15,20 @@
   }
 }
 .about .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 25px;
+}
+.about .content img {
+  height: min(360px, 100vw);
+}
+.about .content p {
   max-width: 50ch;
   text-wrap: balance;
+}
+.about .content h2 {
+  margin-top: 0;
 }
 .about .content a {
   color: var(--logo-magenta);
@@ -26,4 +37,12 @@
 .about .content a:hover {
   color: var(--logo-green);
   text-decoration: underline;
+}
+@media screen and (max-width: 768px) {
+  .about .content {
+    display: block;
+  }
+  .about .content h2 {
+    margin-top: 0.5em;
+  }
 }
