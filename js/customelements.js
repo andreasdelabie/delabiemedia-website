@@ -61,6 +61,8 @@ class mainFooter extends HTMLElement {
                     <div class="legal">
                         <a href="/cookies" class="cookies">cookies</a>
                         ·
+                        <a href="/algemene-voorwaarden" class="algemene-voorwaarden">algemene voorwaarden</a>
+                        ·
                         <a href="/privacy" class="privacy">privacy</a>
                     </div>
                 </div>
