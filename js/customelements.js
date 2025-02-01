@@ -56,7 +56,7 @@ class mainFooter extends HTMLElement {
                 </div>
                 <div class="middle">
                     <div class="copyright">
-                        <p>Copyright © 2024 Delabie Media<br>(Alle rechten voorbehouden)</p>
+                        <p>Copyright © 2025 Delabie Media<br>(Alle rechten voorbehouden)</p>
                     </div>
                     <div class="legal">
                         <a href="/cookies" class="cookies">cookies</a>
