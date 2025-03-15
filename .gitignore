@@ -1,2 +1,5 @@
 .vscode
 assets/stripes.html
+**/data
+**/publish.bat
+**/__pycache__

@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Delabie Media</title>
+        <link>https://delabiemedia.be</link>
+        <ns0:link href="https://delabiemedia.be/feed.xml" rel="self" type="application/rss+xml" />
+        <description>Krijg updates over wijzigingen op onze site!</description>
+        <language>nl</language>
+        <webMaster>webdevs@delabiemedia.be (Delabie Media Web Developers)</webMaster>
+        <pubDate>Sat, 15 Mar 2025 10:22:47 GMT</pubDate>
+        <ttl>10</ttl>
+        <image>
+            <url>https://delabiemedia.be/assets/DelabieMedia_Favicon_128px.png</url>
+            <title>Delabie Media</title>
+            <link>https://delabiemedia.be</link>
+        </image>
+        <item>
+            <title>Test 101</title>
+            <link>https://delabiemedia.be</link>
+            <description>Dit is de zoveelste test :)</description>
+            <pubDate>Wed, 12 Mar 2025 21:38:51 GMT</pubDate>
+        </item>
+        <item>
+            <title>Test 2000</title>
+            <link>https://delabiemedia.be</link>
+            <description>De coolste test ooit!</description>
+            <pubDate>Wed, 12 Mar 2025 21:48:03 GMT</pubDate>
+        </item>
+        <item>
+            <title>Hey</title>
+            <link>https://delabiemedia.be</link>
+            <description>Test</description>
+            <pubDate>Thu, 13 Mar 2025 12:39:43 GMT</pubDate>
+        </item>
+        <item>
+            <title>Laatste coole message</title>
+            <link>https://delabiemedia.be</link>
+            <description>Dit is de laatste coole test!</description>
+            <pubDate>Thu, 13 Mar 2025 12:42:48 GMT</pubDate>
+        </item>
+        <item>
+            <title>Nog maar weer een test</title>
+            <link>https://delabiemedia.be/about</link>
+            <description>Hey hoi dit is weer een test omdat feedly kut doet e jaahh</description>
+            <pubDate>Fri, 14 Mar 2025 08:56:44 GMT</pubDate>
+        </item>
+        <item>
+            <title>Nieuwe video: AMOK 2024 Aftermovie</title>
+            <link>https://delabiemedia.be/projecten/2024/amok-2024/</link>
+            <description>AMOK is een tweejaarlijks festival in Brugge dat georganiseerd wordt door KAAP. Het is een multidisciplinair project waarbij “muziek de dans leidt”. Gedurende tien dagen wil AMOK de stad verklanken, verbinden en verbeelden, waarbij we de artistieke verbeelding inzetten om publieke, gedeelde en niet monofunctionele ruimte te maken. De stad geeft ons site-specifieke projecten, concerten op bijzondere locaties en performances die de grenzen van de disciplines en de klassieke kunstruimte verkennen of zelfs doorbreken.</description>
+            <pubDate>Sat, 15 Mar 2025 10:22:47 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
