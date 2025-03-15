@@ -7,7 +7,7 @@
         <description>Krijg updates over wijzigingen op onze site!</description>
         <language>nl</language>
         <webMaster>webdevs@delabiemedia.be (Delabie Media Web Developers)</webMaster>
-        <pubDate>Sat, 15 Mar 2025 10:22:47 GMT</pubDate>
+        <pubDate>Sat, 15 Mar 2025 11:44:17 GMT</pubDate>
         <ttl>10</ttl>
         <image>
             <url>https://delabiemedia.be/assets/DelabieMedia_Favicon_128px.png</url>
@@ -49,6 +49,18 @@
             <link>https://delabiemedia.be/projecten/2024/amok-2024/</link>
             <description>AMOK is een tweejaarlijks festival in Brugge dat georganiseerd wordt door KAAP. Het is een multidisciplinair project waarbij “muziek de dans leidt”. Gedurende tien dagen wil AMOK de stad verklanken, verbinden en verbeelden, waarbij we de artistieke verbeelding inzetten om publieke, gedeelde en niet monofunctionele ruimte te maken. De stad geeft ons site-specifieke projecten, concerten op bijzondere locaties en performances die de grenzen van de disciplines en de klassieke kunstruimte verkennen of zelfs doorbreken.</description>
             <pubDate>Sat, 15 Mar 2025 10:22:47 GMT</pubDate>
+        </item>
+        <item>
+            <title>Nieuwe video: Test</title>
+            <link>https://delabiemedia.be/heyy</link>
+            <description>Testtt</description>
+            <pubDate>Sat, 15 Mar 2025 11:23:56 GMT</pubDate>
+        </item>
+        <item>
+            <title>Nieuwe video: 'Vivlia'</title>
+            <link>https://delabiemedia.be/projecten/2024/vivlia/</link>
+            <description>Onze nieuwe kortfilm 'Vivlia' is nu te bekijken op onze website!&lt;br&gt;Wanneer Lisa's vader haar boek kapot scheurt zoekt ze hulp bij haar overleden moeder, met wie ze nog kan praten in haar gedachten.</description>
+            <pubDate>Sat, 15 Mar 2025 11:44:17 GMT</pubDate>
         </item>
     </channel>
 </rss>

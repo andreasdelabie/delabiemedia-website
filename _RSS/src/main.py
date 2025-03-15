@@ -1,5 +1,5 @@
 import os, sys
-import rss, s3, mail
+import rss, mail
 
 
 def main(file_path):
@@ -13,9 +13,8 @@ def main(file_path):
     if push == 'n':
         pass
     else:
-        s3.push(file_path)
         mail.send(title, description, link)
-        os.system(f'''git add . && git commit -m "Published '{title}' ({link})" && git push''')
+        os.system(f'''git add -A && git commit -m "Published '{title}' ({link})" && git push''')
 
 
 if __name__ == '__main__':
