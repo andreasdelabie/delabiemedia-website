@@ -6,32 +6,17 @@
 		<lastmod>2024-11-16</lastmod>
 	</url>
 	<url>
-		<loc>https://delabiemedia.be/404.html</loc>
+		<loc>https://delabiemedia.be/test.html</loc>
 		<priority>0.75</priority>
-		<lastmod>2024-09-19</lastmod>
+		<lastmod>2025-03-16</lastmod>
 	</url>
 	<url>
-		<loc>https://delabiemedia.be/about/</loc>
+		<loc>https://delabiemedia.be/reviews/</loc>
 		<priority>0.75</priority>
-		<lastmod>2024-12-10</lastmod>
+		<lastmod>2024-08-29</lastmod>
 	</url>
 	<url>
-		<loc>https://delabiemedia.be/algemene-voorwaarden/</loc>
-		<priority>0.75</priority>
-		<lastmod>2025-01-15</lastmod>
-	</url>
-	<url>
-		<loc>https://delabiemedia.be/cadeaubon/</loc>
-		<priority>0.75</priority>
-		<lastmod>2025-01-23</lastmod>
-	</url>
-	<url>
-		<loc>https://delabiemedia.be/contact/</loc>
-		<priority>0.75</priority>
-		<lastmod>2024-11-16</lastmod>
-	</url>
-	<url>
-		<loc>https://delabiemedia.be/cookies/</loc>
+		<loc>https://delabiemedia.be/projecten/</loc>
 		<priority>0.75</priority>
 		<lastmod>2024-11-16</lastmod>
 	</url>
@@ -41,42 +26,37 @@
 		<lastmod>2025-01-23</lastmod>
 	</url>
 	<url>
-		<loc>https://delabiemedia.be/projecten/</loc>
+		<loc>https://delabiemedia.be/cookies/</loc>
 		<priority>0.75</priority>
 		<lastmod>2024-11-16</lastmod>
 	</url>
 	<url>
-		<loc>https://delabiemedia.be/reviews/</loc>
+		<loc>https://delabiemedia.be/contact/</loc>
 		<priority>0.75</priority>
-		<lastmod>2024-08-29</lastmod>
-	</url>
-	<url>
-		<loc>https://delabiemedia.be/test.html</loc>
-		<priority>0.75</priority>
-		<lastmod>2025-03-16</lastmod>
-	</url>
-	<url>
-		<loc>https://delabiemedia.be/projecten/2023/openkunstendag-2023-kunsthumaniora-sint-lucas-gent/</loc>
-		<priority>0.25</priority>
-		<lastmod>2024-12-13</lastmod>
-	</url>
-	<url>
-		<loc>https://delabiemedia.be/projecten/2023/showreel/</loc>
-		<priority>0.25</priority>
-		<lastmod>2024-12-13</lastmod>
-	</url>
-	<url>
-		<loc>https://delabiemedia.be/projecten/2023/verbinding/</loc>
-		<priority>0.25</priority>
 		<lastmod>2024-11-16</lastmod>
 	</url>
 	<url>
-		<loc>https://delabiemedia.be/projecten/2024/amok-2024/</loc>
-		<priority>0.25</priority>
-		<lastmod>2024-12-13</lastmod>
+		<loc>https://delabiemedia.be/cadeaubon/</loc>
+		<priority>0.75</priority>
+		<lastmod>2025-01-23</lastmod>
 	</url>
 	<url>
-		<loc>https://delabiemedia.be/projecten/2024/lalune-jexiste/</loc>
+		<loc>https://delabiemedia.be/algemene-voorwaarden/</loc>
+		<priority>0.75</priority>
+		<lastmod>2025-01-15</lastmod>
+	</url>
+	<url>
+		<loc>https://delabiemedia.be/about/</loc>
+		<priority>0.75</priority>
+		<lastmod>2024-12-10</lastmod>
+	</url>
+	<url>
+		<loc>https://delabiemedia.be/404.html</loc>
+		<priority>0.75</priority>
+		<lastmod>2024-09-19</lastmod>
+	</url>
+	<url>
+		<loc>https://delabiemedia.be/projecten/2024/vivlia/</loc>
 		<priority>0.25</priority>
 		<lastmod>2024-12-13</lastmod>
 	</url>
@@ -86,7 +66,27 @@
 		<lastmod>2024-12-13</lastmod>
 	</url>
 	<url>
-		<loc>https://delabiemedia.be/projecten/2024/vivlia/</loc>
+		<loc>https://delabiemedia.be/projecten/2024/lalune-jexiste/</loc>
+		<priority>0.25</priority>
+		<lastmod>2024-12-13</lastmod>
+	</url>
+	<url>
+		<loc>https://delabiemedia.be/projecten/2024/amok-2024/</loc>
+		<priority>0.25</priority>
+		<lastmod>2024-12-13</lastmod>
+	</url>
+	<url>
+		<loc>https://delabiemedia.be/projecten/2023/verbinding/</loc>
+		<priority>0.25</priority>
+		<lastmod>2024-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://delabiemedia.be/projecten/2023/showreel/</loc>
+		<priority>0.25</priority>
+		<lastmod>2024-12-13</lastmod>
+	</url>
+	<url>
+		<loc>https://delabiemedia.be/projecten/2023/openkunstendag-2023-kunsthumaniora-sint-lucas-gent/</loc>
 		<priority>0.25</priority>
 		<lastmod>2024-12-13</lastmod>
 	</url>
