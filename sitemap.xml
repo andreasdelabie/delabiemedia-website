@@ -51,8 +51,13 @@
 		<lastmod>2024-08-29</lastmod>
 	</url>
 	<url>
-		<loc>https://delabiemedia.be/test.html</loc>
-		<priority>0.75</priority>
+		<loc>https://delabiemedia.be/mailinglist/subscribe.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-16</lastmod>
+	</url>
+	<url>
+		<loc>https://delabiemedia.be/mailinglist/unsubscribe.html</loc>
+		<priority>0.50</priority>
 		<lastmod>2025-03-16</lastmod>
 	</url>
 	<url>
