@@ -7,7 +7,13 @@
         <description>Krijg updates over wijzigingen op onze site!</description>
         <language>nl</language>
         <webMaster>webdevs@delabiemedia.be (Delabie Media Web Developers)</webMaster>
-        <pubDate>Sat, 15 Mar 2025 11:44:17 GMT</pubDate>
+        <pubDate>Sun, 16 Mar 2025 22:24:00 GMT</pubDate>
         <ttl>10</ttl>
+        <item>
+            <title>Hoii Britt!!</title>
+            <link>https://delabiemedia.be</link>
+            <description>Normaal zou de unsubscribe knop nu ook moeten werken?</description>
+            <pubDate>Sun, 16 Mar 2025 22:24:00 GMT</pubDate>
+        </item>
     </channel>
 </rss>
