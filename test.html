@@ -8,7 +8,7 @@
         element.preventDefault();
         const email = document.getElementById('email').value;
 
-        const response = await fetch('https://delabiemedia.be/api/mailinglist', {
+        const response = await fetch('https://delabiemedia.be/api/mailinglist/subscribe', {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({email}),
