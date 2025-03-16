@@ -4,19 +4,21 @@
 </form>
 
 <script>
-    document.getElementById('emailForm').addEventListener('submit', async (e) => {e.preventDefault()});
-    const email = document.getElementById('email').value;
+    document.getElementById('emailForm').addEventListener('submit', async (element) => {
+        element.preventDefault();
+        const email = document.getElementById('email').value;
 
-    const response = await fetch('https://delabiemedia.be/api/mailinglist', {
-        method: 'POST',
-        body: JSON.stringify({email}),
+        const response = await fetch('https://delabiemedia.be/api/mailinglist', {
+            method: 'POST',
+            body: JSON.stringify({email}),
+        });
+
+        const result = await response.json();
+
+        if (result.succes === 'true') {
+            alert(`Subscribed! ${result.message}`)
+        } else {
+            alert(`Error: ${result.message}`)
+        }
     });
-
-    const result = await response.json();
-
-    if (result.succes === 'true') {
-        alert(`Subscribed! ${result.message}`)
-    } else {
-        alert(`Error: ${result.message}`)
-    }
 </script>
