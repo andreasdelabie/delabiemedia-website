@@ -16,7 +16,7 @@
 
         const result = await response.json();
 
-        if (result.succes === 'true') {
+        if (result.succes === true) {
             alert(`Subscribed! ${result.message}`)
         } else {
             alert(`Error: ${result.message}`)
