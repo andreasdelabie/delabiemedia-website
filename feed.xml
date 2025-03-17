@@ -3,7 +3,7 @@
     <channel>
         <title>Delabie Media</title>
         <link>https://delabiemedia.be</link>
-        <ns0:link href="https://delabiemedia.be/feed.xml" rel="self" type="application/rss+xml" />
+        <link href="https://delabiemedia.be/feed.xml" rel="self" type="application/rss+xml"/>
         <description>Krijg updates over wijzigingen op onze site!</description>
         <language>nl</language>
         <webMaster>webdevs@delabiemedia.be (Delabie Media Web Developers)</webMaster>
