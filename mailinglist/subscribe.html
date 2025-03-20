@@ -6,26 +6,5 @@
 <form id="emailForm">
     <input type="email" id="email" placeholder="Enter your email" required>
     <div class="cf-turnstile" data-sitekey="0x4AAAAAABBxyvxMitidpF2Y" data-theme="light"></div>
-    <button type="submit">Subscribe</button>
+    <button type="submit" formaction="https://delabiemedia.be/api/mailinglist/subscribe" formmethod="post">Subscribe</button>
 </form>
-
-<script>
-    document.getElementById('emailForm').addEventListener('submit', async (element) => {
-        element.preventDefault();
-        const email = document.getElementById('email').value;
-
-        const response = await fetch('https://delabiemedia.be/api/mailinglist/subscribe', {
-            method: 'POST',
-            headers: {'Content-Type': 'application/json'},
-            body: JSON.stringify({email}),
-        });
-
-        const result = await response.json();
-
-        if (result.success) {
-            alert('Subscribed!')
-        } else {
-            alert(`Error: ${result.message}`)
-        }
-    });
-</script>
