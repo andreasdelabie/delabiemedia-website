@@ -1,0 +1,20 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/.github": true,
+        "**/.tox": true,
+        "**/.vscode": true,
+        "**/*.ai": true,
+        "**/*.psd": true,
+        "**/*.url": true,
+        "**/CVS": true,
+        "**/.gitignore": true,
+        "assets/stripes.html": true
+    },
+    "explorerExclude.backup": {},
+    "github-actions.workflows.pinned.workflows": []
+}
