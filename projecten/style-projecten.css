@@ -105,7 +105,7 @@ body {
   background-attachment: fixed;
 }
 .project .content {
-  width: min(500px, 100%);
+  width: min(1000px, 100%);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -119,11 +119,15 @@ body {
   gap: 25px;
 }
 .project .content .video {
-  width: min(500px, 100%);
+  width: min(1000px, 100%);
   aspect-ratio: 16/9;
 }
 .project .content .video iframe {
   border-radius: 10px;
+}
+.project .content .description {
+  max-width: 75ch;
+  text-wrap: balance;
 }
 .project .content .description a {
   text-decoration: underline;

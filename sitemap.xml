@@ -8,7 +8,7 @@
 	<url>
 		<loc>https://delabiemedia.be/projecten/</loc>
 		<priority>0.75</priority>
-		<lastmod>2025-03-15</lastmod>
+		<lastmod>2025-04-25</lastmod>
 	</url>
 	<url>
 		<loc>https://delabiemedia.be/contact/</loc>
@@ -18,7 +18,12 @@
 	<url>
 		<loc>https://delabiemedia.be/about/</loc>
 		<priority>0.75</priority>
-		<lastmod>2025-03-15</lastmod>
+		<lastmod>2025-04-25</lastmod>
+	</url>
+	<url>
+		<loc>https://delabiemedia.be/projecten/2025/el-chico-fiesta/</loc>
+		<priority>0.25</priority>
+		<lastmod>2025-04-25</lastmod>
 	</url>
 	<url>
 		<loc>https://delabiemedia.be/projecten/2024/vivlia/</loc>
@@ -33,7 +38,7 @@
 	<url>
 		<loc>https://delabiemedia.be/projecten/2024/lalune-jexiste/</loc>
 		<priority>0.25</priority>
-		<lastmod>2025-03-20</lastmod>
+		<lastmod>2025-04-25</lastmod>
 	</url>
 	<url>
 		<loc>https://delabiemedia.be/projecten/2024/amok-2024/</loc>
