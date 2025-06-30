@@ -1,0 +1,205 @@
+header {
+    transform: translateY(-100%);
+}
+
+.welcome {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--grey);
+    .logo {
+        width: 75vw;
+        max-width: 750px;
+        opacity: 0;
+    }
+    #arrow {
+        position: absolute;
+        bottom: 100px;
+        opacity: 0;
+        @media screen and (max-width: 768px) {
+            bottom: 150px;
+        }
+    }
+}
+
+.wat-wij-doen {
+    height: 50vh;
+    background-color: var(--grey);
+    color: var(--white);
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h3 {
+            max-width: 475px;
+        }
+        p {
+            max-width: 400px;
+        }
+    }
+}
+
+.showreel {
+    height: 100vh;
+    background-color: var(--grey);
+    color: var(--white);
+    text-align: center;
+    cursor: url("/assets/graphics/DelabieMedia_Cursor_Play.png"), auto;
+    .content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .video {
+            width: 100%;
+            max-width: 720px;
+            aspect-ratio: 16 / 9;
+            margin: 25px;
+            iframe {
+                border-radius: 10px;
+            }
+        }
+    }
+}
+
+.breakdown {
+    height: 100vh;
+    .description {
+        display: none;
+        position: absolute;
+        left: 50px;
+        bottom: 100px;
+        z-index: 1;
+        color: var(--white);
+        @media screen and (max-width: 768px) {
+            left: 10px;
+            bottom: 25px;
+        }
+    }
+    .before {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-size: cover;
+    }
+    .after {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-size: cover;
+        opacity: 0;
+    }
+    .before1 {
+        background-image: url(/assets/images/DelabieMedia_Breakdown_1_Before.webp);
+        background-position: 47% 47.5%;
+    }
+    .after1 {
+        background-image: url(/assets/images/DelabieMedia_Breakdown_1_After.webp);
+        background-position: 47% 47.5%;
+    }
+    .before2 {
+        background-image: url(/assets/images/DelabieMedia_Breakdown_2_Before.webp);
+        background-position: 53% 40%;
+    }
+    .after2 {
+        background-image: url(/assets/images/DelabieMedia_Breakdown_2_After.webp);
+        background-position: 53% 40%;
+    }
+}
+
+.watch-more {
+    min-height: 50vh;
+    background-color: var(--grey);
+    color: var(--white);
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+    }
+}
+
+.reviews {
+    min-height: 100vh;
+    background-color: var(--grey);
+    color: var(--white);
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        color: var(--white);
+        text-align: center;
+        .user-reviews {
+            width: clamp(300px, 80vw, 1200px);
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            align-items: center;
+            grid-gap: 25px;
+            p {
+                height: min-content;
+                margin: 0;
+                padding: 10px;
+                border: 1px solid var(--white);
+                border-radius: 10px;
+            }
+            @media screen and (max-width: 768px) {
+                grid-template-columns: 1fr;
+            }
+        }
+        .rating {
+            * {
+                margin: 0;
+            }
+            .stars {
+                font-size: 2em;
+                color: #fbbc04;
+            }
+        }
+    }
+}
+
+.pricing {
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--grey);
+    color: var(--white);
+    .pricing-description {
+        h3 {
+            max-width: 500px;
+        }
+        p {
+            max-width: 444px;
+        }
+    }
+    .pricing-table {
+        .table-disclaimer {
+            color:hsl(0, 0%, 50%);
+            font-style: italic;
+        }
+        h3 {
+            max-width: 300px;
+        }
+    }
+}
+
+.contact {
+    height: 100vh;
+    background-color: var(--grey);
+    color: var(--white);
+    text-align: center;
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+    }
+}
