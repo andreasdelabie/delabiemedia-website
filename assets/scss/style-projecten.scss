@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+}
+
+.projects {
+    min-height: 100vh;
+    padding: 100px 50px 50px 50px;
+    display: flex;
+    justify-content: center;
+    background-color: var(--grey);
+    color: var(--white);
+    .content {
+        width: 100%;
+        max-width: 1700px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        .grid {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 25px;
+            .grid-item {
+                position: relative;
+                width: 100%;
+                max-width: 500px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+                text-align: center;
+                transition: all 0.25s ease-out;
+                &:hover {
+                    transform: scale(105%);
+                }
+                h3, p {
+                    margin: 0;
+                }
+                .video-thumbnail {
+                    width: 100%;
+                    aspect-ratio: 16 / 9;
+                    object-fit: cover;
+                    border-radius: 10px;
+                }
+                a {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 768px) {
+        padding: 125px 10px 50px 10px;
+    }
+}
+
+.project {
+    min-height: 100vh;
+    max-height: fit-content;
+    padding: 200px 50px 50px 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    .content {
+        width: 100%;
+        max-width: 1000px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        .video {
+            width: 100%;
+            max-width: 1000px;
+            aspect-ratio: 16 / 9;
+            iframe {
+                border-radius: 10px;
+            }
+        }
+        .description {
+            max-width: 75ch;
+            text-wrap: balance;
+            a {
+                text-decoration: underline;
+                color: var(--white);
+            }
+        }
+        .links {
+            display: flex;
+            gap: 10px;
+        }
+    }
+    @media screen and (max-width: 768px) {
+        padding: 125px 10px 50px 10px;
+    }
+}

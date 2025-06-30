@@ -1,4 +1,3 @@
-assets/stripes.html
-**/data
-**/publish.bat
-**/__pycache__
+.hugo_build.lock
+public/
+resources/
