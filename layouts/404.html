@@ -44,7 +44,7 @@
         <section class="error">
             <h2>Oeps!<br>Dat kan niet kloppen...</h2>
             <a href="/"><button>Terug naar home</button></a>
-            {{ $image := resources.Get "/assets/graphics/DelabieMedia_Graphic_Bars.png" }}<img src='{{ ($image.Resize "1000x webp").RelPermalink}}' alt="404 color bars graphic">
+            {{ $image := resources.Get "/assets/graphics/DelabieMedia_Graphic_Bars.png" }}<img src='{{ ($image.Resize "x720 webp").RelPermalink}}' alt="404 color bars graphic">
         </section>
         <style>
             .error {
