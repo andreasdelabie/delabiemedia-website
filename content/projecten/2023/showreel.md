@@ -9,7 +9,7 @@ weight: "10"
 id: ["SRDN3N5zgBY"]
 color: "white"
 transparancy: "0.5"
-background: "/assets/images/DelabieMedia_Background_Projecten_2023_Showreel.webp"
-thumbnail: "/assets/videothumbnails/DelabieMedia_VideoThumbnail_Showreel.webp"
+background: "/assets/images/DelabieMedia_Background_Projecten_2023_Showreel.jpg"
+thumbnail: "/assets/videothumbnails/DelabieMedia_VideoThumbnail_Showreel.jpg"
 ---
 Benieuwd wat wij voor u kunnen doen? Maak aan de hand van deze showreel kort kennis met Delabie Media.
