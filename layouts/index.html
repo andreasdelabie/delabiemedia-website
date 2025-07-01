@@ -126,11 +126,11 @@
                     background-position: 47% 47.5%;
                 }
                 .before2 {
-                    background-image: {{ $image := resources.Get "/assets/images/DelabieMedia_Breakdown_2_Before.jpg" }}url({{ ($image.Resize "x1400 q100 webp").RelPermalink }});
+                    background-image: {{ $image := resources.Get "/assets/images/DelabieMedia_Breakdown_2_Before.jpg" }}url({{ ($image.Resize "x1080 q100 webp").RelPermalink }});
                     background-position: 53% 40%;
                 }
                 .after2 {
-                    background-image: {{ $image := resources.Get "/assets/images/DelabieMedia_Breakdown_2_After.jpg" }}url({{ ($image.Resize "x1400 q100 webp").RelPermalink }});
+                    background-image: {{ $image := resources.Get "/assets/images/DelabieMedia_Breakdown_2_After.jpg" }}url({{ ($image.Resize "x1080 q100 webp").RelPermalink }});
                     background-position: 53% 40%;
                 }{}
             </style>

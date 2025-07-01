@@ -76,7 +76,7 @@
             </div>
             <style>
                 .project {
-                    background-image: {{ $image := resources.Get .Page.Params.Background }}url({{($image.Resize "x1400 q100 webp").RelPermalink}});
+                    background-image: {{ $image := resources.Get .Page.Params.Background }}url({{($image.Resize "x1080 q100 webp").RelPermalink}});
                     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, {{ .Page.Params.Transparancy | default "0.5"}});
                     color: var(--{{ .Page.Params.Color | default "white" }});
                 }
