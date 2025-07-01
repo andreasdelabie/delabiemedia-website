@@ -8,8 +8,8 @@ date: "2023-04-02"
 id: ["MwzC2yb8e18"]
 color: "white"
 transparancy: "0.6"
-background: "/assets/images/DelabieMedia_Background_Projecten_2023_Openkunstendag2023KunsthumanioraSintLucasGent.webp"
-thumbnail: "/assets/videothumbnails/DelabieMedia_VideoThumbnail_Openkunstendag2023KunsthumanioraSintLucasGent.webp"
+background: "/assets/images/DelabieMedia_Background_Projecten_2023_Openkunstendag2023KunsthumanioraSintLucasGent.jpg"
+thumbnail: "/assets/videothumbnails/DelabieMedia_VideoThumbnail_Openkunstendag2023KunsthumanioraSintLucasGent.jpg"
 links:
     - name: "Website"
       link: "https://lucasgent.be"

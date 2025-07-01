@@ -8,8 +8,8 @@ date: "2024-07-07"
 id: ["gpum4bdeZ0o"]
 color: "white"
 transparancy: "0.5"
-background: "/assets/images/DelabieMedia_Background_Projecten_2024_Vivlia.webp"
-thumbnail: "/assets/videothumbnails/DelabieMedia_VideoThumbnail_Vivlia.webp"
+background: "/assets/images/DelabieMedia_Background_Projecten_2024_Vivlia.jpg"
+thumbnail: "/assets/videothumbnails/DelabieMedia_VideoThumbnail_Vivlia.jpg"
 links:
     - name: "IMDb"
       link: "https://www.imdb.com/title/tt32454252/"

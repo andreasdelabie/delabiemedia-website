@@ -28,9 +28,9 @@
     <meta property="og:image" content="https://delabiemedia.be/assets/DelabieMedia_Favicon_128px.png">
     <meta property="article:author" content="Andreas Delabie">
     <link rel="shortcut icon" href="/assets/DelabieMedia_Favicon_128px.png" type="image/x-icon">
-    {{ with resources.Get "scss/style-global.scss" | toCSS | minify }} <link rel="stylesheet" href="{{ .RelPermalink }}" /> {{ end }}
-    {{ with resources.Get "scss/style-home.scss" | toCSS | minify }} <link rel="stylesheet" href="{{ .RelPermalink }}" /> {{ end }}
-    {{ with resources.Get "js/cookies.js" | minify | fingerprint }} <script src="{{ .RelPermalink }}" defer></script> {{ end }}
+    {{ with resources.Get "scss/style-global.scss" | toCSS | minify }}<link rel="stylesheet" href="{{ .RelPermalink }}" />{{ end }}
+    {{ with resources.Get "scss/style-home.scss" | toCSS | minify }}<link rel="stylesheet" href="{{ .RelPermalink }}" />{{ end }}
+    {{ with resources.Get "js/cookies.js" | minify | fingerprint }}<script src="{{ .RelPermalink }}" defer></script>{{ end }}
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,8 +38,8 @@
     <!-- Gsap -->
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
-    {{ with resources.Get "js/animation-global.js" | minify | fingerprint }} <script src="{{ .RelPermalink }}" defer></script> {{ end }}
-    {{ with resources.Get "js/animation-home.js" | minify | fingerprint }} <script src="{{ .RelPermalink }}" defer></script> {{ end }}
+    {{ with resources.Get "js/animation-global.js" | minify | fingerprint }}<script src="{{ .RelPermalink }}" defer></script>{{ end }}
+    {{ with resources.Get "js/animation-home.js" | minify | fingerprint }}<script src="{{ .RelPermalink }}" defer></script>{{ end }}
 </head>
 
 <body>
@@ -116,6 +116,24 @@
                 <div class="before before2"></div>
                 <div class="after after2"></div>
             </div>
+            <style>
+                .before1 {
+                    background-image: {{ $image := resources.Get "/assets/images/DelabieMedia_Breakdown_1_Before.jpg" }}url({{ ($image.Resize "x1400 q100 webp").RelPermalink }});
+                    background-position: 47% 47.5%;
+                }
+                .after1 {
+                    background-image: {{ $image := resources.Get "/assets/images/DelabieMedia_Breakdown_1_After.jpg" }}url({{ ($image.Resize "x1400 q100 webp").RelPermalink }});
+                    background-position: 47% 47.5%;
+                }
+                .before2 {
+                    background-image: {{ $image := resources.Get "/assets/images/DelabieMedia_Breakdown_2_Before.jpg" }}url({{ ($image.Resize "x1400 q100 webp").RelPermalink }});
+                    background-position: 53% 40%;
+                }
+                .after2 {
+                    background-image: {{ $image := resources.Get "/assets/images/DelabieMedia_Breakdown_2_After.jpg" }}url({{ ($image.Resize "x1400 q100 webp").RelPermalink }});
+                    background-position: 53% 40%;
+                }{}
+            </style>
         </section>
         <section class="watch-more default-padding flex-center">
             <div class="content">

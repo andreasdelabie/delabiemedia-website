@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<DOCTYPE html>
 {{ "<!-- Found a bug? Report it at webdevs@delabiemedia.be -->" | safeHTML }}
 <html lang="nl-BE">
 
@@ -23,23 +23,16 @@
     <meta property="video:duration" content="{{ .Page.Params.Duration }}">
     <meta property="video:release_date" content='{{ .Page.Params.Date.Format "2006-01-02" }}'>
     <link rel="shortcut icon" href="/assets/DelabieMedia_Favicon_128px.png" type="image/x-icon">
-    {{ with resources.Get "scss/style-global.scss" | toCSS | minify | fingerprint }} <link rel="stylesheet" href="{{ .RelPermalink }}" /> {{ end }}
-    {{ with resources.Get "scss/style-projecten.scss" | toCSS | minify | fingerprint }} <link rel="stylesheet" href="{{ .RelPermalink }}" /> {{ end }}
-    <style>
-        .project {
-            background-image: url({{ .Page.Params.Background }});
-            box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, {{ .Page.Params.Transparancy | default "0.5"}});
-            color: var(--{{ .Page.Params.Color | default "white" }});
-        }
-    </style>
-    {{ with resources.Get "js/cookies.js" | minify | fingerprint }} <script src="{{ .RelPermalink }}" defer></script>{{ end }}
+    {{ with resources.Get "scss/style-global.scss" | toCSS | minify | fingerprint }}<link rel="stylesheet" href="{{ .RelPermalink }}" />{{ end }}
+    {{ with resources.Get "scss/style-projecten.scss" | toCSS | minify | fingerprint }}<link rel="stylesheet" href="{{ .RelPermalink }}" />{{ end }}
+    {{ with resources.Get "js/cookies.js" | minify | fingerprint }}<script src="{{ .RelPermalink }}" defer></script>{{ end }}
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <!-- Gsap -->
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
-    {{ with resources.Get "js/animation-global.js" | minify | fingerprint }} <script src="{{ .RelPermalink }}" defer></script> {{ end }}
+    {{ with resources.Get "js/animation-global.js" | minify | fingerprint }}<script src="{{ .RelPermalink }}" defer></script>{{ end }}
 </head>
 
 <body>
@@ -81,6 +74,13 @@
                 </div>
                 {{ end }}
             </div>
+            <style>
+                .project {
+                    background-image: {{ $image := resources.Get .Page.Params.Background }}url({{($image.Resize "x1400 webp").RelPermalink}});
+                    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, {{ .Page.Params.Transparancy | default "0.5"}});
+                    color: var(--{{ .Page.Params.Color | default "white" }});
+                }
+            </style>
         </section>
     </main>
     {{ partial "footer.html" }}
