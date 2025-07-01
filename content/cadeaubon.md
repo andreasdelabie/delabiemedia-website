@@ -1,7 +1,7 @@
 ---
 title: "Cadeaubon"
 description: "Voorwaarden van Delabie Media cadeaubonnen."
-date: ""
+date: "2025-06-30"
 ---
 ### Voorwaarden:
 #### Geldigheidsduur:

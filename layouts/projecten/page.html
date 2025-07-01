@@ -23,8 +23,8 @@
     <meta property="video:duration" content="{{ .Page.Params.Duration }}">
     <meta property="video:release_date" content='{{ .Page.Params.Date.Format "2006-01-02" }}'>
     <link rel="shortcut icon" href="/assets/DelabieMedia_Favicon_128px.png" type="image/x-icon">
-    {{ with resources.Get "scss/style-global.scss" | toCSS | minify | fingerprint }}<link rel="stylesheet" href="{{ .RelPermalink }}" />{{ end }}
-    {{ with resources.Get "scss/style-projecten.scss" | toCSS | minify | fingerprint }}<link rel="stylesheet" href="{{ .RelPermalink }}" />{{ end }}
+    {{ with resources.Get "css/style-global.scss" | toCSS | minify | fingerprint }}<link rel="stylesheet" href="{{ .RelPermalink }}" />{{ end }}
+    {{ with resources.Get "css/style-projecten.scss" | toCSS | minify | fingerprint }}<link rel="stylesheet" href="{{ .RelPermalink }}" />{{ end }}
     {{ with resources.Get "js/cookies.js" | minify | fingerprint }}<script src="{{ .RelPermalink }}" defer></script>{{ end }}
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
