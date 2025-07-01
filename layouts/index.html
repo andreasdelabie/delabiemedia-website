@@ -28,8 +28,8 @@
     <meta property="og:image" content="https://delabiemedia.be/assets/DelabieMedia_Favicon_128px.png">
     <meta property="article:author" content="Andreas Delabie">
     <link rel="shortcut icon" href="/assets/DelabieMedia_Favicon_128px.png" type="image/x-icon">
-    {{ with resources.Get "scss/style-global.scss" | toCSS | minify }}<link rel="stylesheet" href="{{ .RelPermalink }}" />{{ end }}
-    {{ with resources.Get "scss/style-home.scss" | toCSS | minify }}<link rel="stylesheet" href="{{ .RelPermalink }}" />{{ end }}
+    {{ with resources.Get "css/style-global.scss" | toCSS | minify | fingerprint}}<link rel="stylesheet" href="{{ .RelPermalink }}" />{{ end }}
+    {{ with resources.Get "css/style-home.scss" | toCSS | minify | fingerprint}}<link rel="stylesheet" href="{{ .RelPermalink }}" />{{ end }}
     {{ with resources.Get "js/cookies.js" | minify | fingerprint }}<script src="{{ .RelPermalink }}" defer></script>{{ end }}
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
