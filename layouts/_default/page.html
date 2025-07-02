@@ -4,6 +4,7 @@
 
 <head>
     <meta charset="UTF-8">
+    {{ with .Page.Params.sitemap.disable }}{{ if not false }}<meta name="robots" content="noindex, nofollow">{{ end }}{{ end }}
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ .Page.Params.Title }} | Delabie Media</title>
     <meta name="author" content="Andreas Delabie">

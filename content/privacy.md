@@ -2,6 +2,8 @@
 title: "Privacy"
 description: "Meer info over welke gegevens wij verzamelen en hoe wij deze verwerken."
 date: "2024-09-10"
+sitemap:
+  disable: true
 ---
 Zodra je onze website delabiemedia.be bezoekt of contact met ons opneemt, ontvangen we informatie over jou. In deze privacyverklaring leggen we uit wat we met die informatie doen. We gaan altijd zorgvuldig met je informatie om en slaan die veilig op.
 
