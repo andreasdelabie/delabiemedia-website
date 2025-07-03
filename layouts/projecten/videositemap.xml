@@ -5,7 +5,7 @@
     <video:video>
       {{ range .Params.id}}<video:content_loc>https://youtube.com/v/{{ . }}</video:content_loc>{{ end }}
       <video:title>{{ .Params.title }}</video:title>
-      <video:description>{{ .Page.Summary | plainify | truncate 120 | replaceRE "\n" "" }}</video:description>
+      <video:description>{{ .Page.Summary | plainify | truncate 120 | replaceRE "\n" "" | replaceRE "&lsquo;" "" | replaceRE "&rsquo;" "" | replaceRE "&amp;" "" }}</video:description>
       {{ $img := resources.Get .Page.Params.Thumbnail }}<video:thumbnail_loc>{{ ($img.Resize "500x webp").Permalink }}</video:thumbnail_loc>
       <video:duration>{{ .Params.duration }}</video:duration>
       <video:publication_date>{{ .Params.date.Format "2006-01-02T15:04:05Z" }}</video:publication_date>
