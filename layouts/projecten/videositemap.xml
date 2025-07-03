@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  {{ range .Pages }}<url>
+    <loc>{{ .Permalink }}</loc>
+    <video:video>
+      {{ range .Params.id}}<video:content_loc>https://youtube.com/v/{{ . }}</video:content_loc>{{ end }}
+      <video:title>{{ .Params.title }}</video:title>
+      <video:description>{{ .Page.Summary | plainify | truncate 120 | replaceRE "\n" " " | replaceRE "&lsquo;" "" | replaceRE "&rsquo;" "" | replaceRE "&amp;" "" }}</video:description>
+      {{ $img := resources.Get .Page.Params.Thumbnail }}<video:thumbnail_loc>{{ ($img.Resize "500x webp").Permalink }}</video:thumbnail_loc>
+      <video:duration>{{ .Params.duration | default 60 }}</video:duration>
+      <video:publication_date>{{ .Params.date.Format "2006-01-02T15:04:05Z" }}</video:publication_date>
+    </video:video>
+  </url>{{ end }}
+</urlset>

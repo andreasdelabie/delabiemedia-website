@@ -4,3 +4,11 @@ title = 'Delabie Media'
 
 disableHugoGeneratorInject = true
 disableKinds = ['taxonomy']
+
+[outputs]
+section = ['HTML', 'videositemap']
+
+[outputFormats.videositemap]
+mediaType = 'application/xml'
+baseName = 'videositemap'
+isPlainText = true
