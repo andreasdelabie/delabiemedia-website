@@ -2,6 +2,8 @@ baseURL = 'https://delabiemedia.be'
 languageCode = 'nl-BE'
 title = 'Delabie Media'
 
+theme = "delabiemedia-hugotheme"
+
 disableHugoGeneratorInject = true
 disableKinds = ['taxonomy']
 
