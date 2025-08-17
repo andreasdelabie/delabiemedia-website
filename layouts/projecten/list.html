@@ -16,9 +16,9 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://delabiemedia.be/projecten/">
     <meta property="og:site_name" content="Delabie Media">
-    <meta property="og:image" content="https://delabiemedia.be/assets/DelabieMedia_Favicon_128px.png">
+    <meta property="og:image" content="https://delabiemedia.be/assets/DelabieMedia_Favicon.png">
     <meta property="article:author" content="Andreas Delabie">
-    <link rel="shortcut icon" href="/assets/DelabieMedia_Favicon_128px.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/assets/DelabieMedia_Favicon.png" type="image/x-icon">
     {{ with resources.Get "css/style-global.scss" | toCSS | minify | fingerprint }}<link rel="stylesheet" href="{{ .RelPermalink }}" />{{ end }}
     {{ with resources.Get "css/style-projecten.scss" | toCSS | minify | fingerprint }}<link rel="stylesheet" href="{{ .RelPermalink }}" />{{ end }}
     {{ with resources.Get "js/cookies.js" | minify | fingerprint }}<script src="{{ .RelPermalink }}" defer></script>{{ end }}
