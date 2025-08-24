@@ -7,6 +7,9 @@ theme = "delabiemedia-hugotheme"
 disableHugoGeneratorInject = true
 disableKinds = ['taxonomy']
 
+[sitemap]
+priority = 0.5
+
 [outputs]
 section = ['HTML', 'videositemap']
 
