@@ -1,0 +1,4 @@
+---
+sitemap:
+    priority: 1
+---

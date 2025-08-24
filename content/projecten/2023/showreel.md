@@ -6,6 +6,8 @@ duration: "25"
 category: "Reel"
 date: "2023-08-25"
 weight: "10"
+sitemap:
+    priority: 0.7
 id: ["SRDN3N5zgBY"]
 color: "white"
 transparancy: "0.5"
