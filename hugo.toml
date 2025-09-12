@@ -4,7 +4,6 @@ title = 'Delabie Media'
 
 theme = "delabiemedia-hugotheme"
 
-disableHugoGeneratorInject = true
 disableKinds = ['taxonomy']
 
 [sitemap]
