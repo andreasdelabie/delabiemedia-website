@@ -1,6 +1,5 @@
 baseURL = 'https://delabiemedia.be'
-languageCode = 'nl-BE'
-title = 'Delabie Media'
+title = "Delabie Media | Videografie & Videoproductieservices | evenementen, advertenties, reclamevideos, bedrijfsvideo's, ..."
 
 theme = "delabiemedia-hugotheme"
 
