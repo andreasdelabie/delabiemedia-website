@@ -2,8 +2,9 @@
 title: Cookies
 description: Meer info over welke cookies wij gebruiken op onze website.
 date: 2024-08-30
+noindex: true
 sitemap:
-  disable: true
+    disable: true
 ---
 #### 1. Het gebruik van cookies
 delabiemedia.be maakt gebruik van cookies. Een cookie is een eenvoudig klein bestandje dat met pagina’s van deze website en/of Flash-applicaties wordt meegestuurd en door je browser op je harde schijf van je computer, mobiele telefoon, smart watch of tablet wordt opgeslagen. De daarin opgeslagen informatie kan bij een volgend bezoek weer naar onze servers teruggestuurd worden.
