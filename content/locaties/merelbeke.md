@@ -1,5 +1,4 @@
 ---
+location: Merelbeke
 layout: landingpage
-sitemap:
-    priority: 1
 ---

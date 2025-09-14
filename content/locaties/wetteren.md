@@ -1,5 +1,4 @@
 ---
+location: Wetteren
 layout: landingpage
-sitemap:
-    priority: 1
 ---

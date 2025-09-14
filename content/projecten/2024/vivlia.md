@@ -1,20 +1,20 @@
 ---
-title: "Vivlia"
-category: "Kortfilm"
-director: "Andreas Delabie"
-writer: "Andreas Delabie"
-duration: "671"
-date: "2024-07-07"
-id: ["gpum4bdeZ0o"]
-color: "white"
-transparancy: "0.5"
-background: "/assets/images/DelabieMedia_Background_Projecten_2024_Vivlia.jpg"
-thumbnail: "/assets/videothumbnails/DelabieMedia_VideoThumbnail_Vivlia.jpg"
+title: Vivlia
+category: Kortfilm
+director: Andreas Delabie
+writer: Andreas Delabie
+duration: 671
+date: 2024-07-07
+id: [gpum4bdeZ0o]
+color: white
+transparancy: 0.5
+background: /assets/images/DelabieMedia_Background_Projecten_2024_Vivlia.jpg
+thumbnail: /assets/videothumbnails/DelabieMedia_VideoThumbnail_Vivlia.jpg
 links:
-    - name: "IMDb"
-      link: "https://www.imdb.com/title/tt32454252/"
-    - name: "FilmFreeway"
-      link: "https://filmfreeway.com/vivlia"
+    - name: IMDb
+      link: https://www.imdb.com/title/tt32454252/
+    - name: FilmFreeway
+      link: https://filmfreeway.com/vivlia
 ---
 
 ### Synopsis:

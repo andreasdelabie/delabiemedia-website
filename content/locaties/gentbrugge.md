@@ -1,5 +1,4 @@
 ---
+location: Gentbrugge
 layout: landingpage
-sitemap:
-    priority: 1
 ---

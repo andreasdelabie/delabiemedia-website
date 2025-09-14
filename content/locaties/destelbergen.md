@@ -1,5 +1,4 @@
 ---
+location: Destelbergen
 layout: landingpage
-sitemap:
-    priority: 1
 ---

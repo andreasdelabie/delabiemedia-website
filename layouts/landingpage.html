@@ -14,16 +14,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ .Site.Title }}</title>
+    <title>{{ .Site.Title }} | {{ .Site.Params.titleDescription }} {{ with .Page.Params.Location }}in {{ . }}{{end}} | {{ .Site.Params.titleKeywords }}</title>
     <meta name="author" content="Andreas Delabie">
     <meta name="description" content="Bij Delabie Media helpen wij uw idee te realiseren tot een mooi eindresultaat. Wij zorgen voor alles van filmen tot monteren, maar staan ook klaar als aanvulling voor uw team of project.">
     <meta name="keywords" content="andreas, delabie, media, delarmy, studios, studio's, regisseur, filmmaker, filmman, filmen, film, films, cameraman, fotograaf, foto, foto's, fotografie, fotograffie, video, video's, videoproductie, videograaf, productie, portret, portretten, portretfotografie, evenement, evenementen, event, events, evenementfotografie, eventfotografie, kortfilm, kortfilms, shortfilm, shortfilms, advertentie, advertentievideo, reclame, reclamevideo, reclamefoto, reclamefotos, reclamefotografie, marketing, marketingvideo, marketingfotografie, product, producten, productfotografie, communie, comunnie, comunie, dienst, diensten, belgië, belgie, bedrijf, bedrijven, boeken, huren, prijzen, lochristi, lokeren, gent, wachtebeke, oostakker, hijfte, sint-amandsberg, gentbrugge, destelbergen, beervelde, melle, wetteren, geraardsbergen, in de buurt, oost-vlaanderen, vlaanderen, gezocht, freelance, zelfstandig, zelfstandige, vastgoed, betaalbaar, betaalbare, goedkoop, goedkope">
-    <link rel="canonical" href="https://delabiemedia.be">
+    <link rel="canonical" href="{{ .Page.Permalink }}">
     <link rel="alternate" href="https://delabiemedia.be/index.xml" type="application/rss+xml" title="RSS">
-    <meta property="og:title" content="{{ .Site.Title }}">
+    <meta property="og:title" content="{{ .Site.Title }} | {{ .Site.Params.titleDescription }} {{ with .Page.Params.Location }}in {{ . }}{{end}} | {{ .Site.Params.titleKeywords }}">
     <meta property="og:description" content="Bij Delabie Media helpen wij uw idee te realiseren tot een mooi eindresultaat. Wij zorgen voor alles van filmen tot monteren, maar staan ook klaar als aanvulling voor uw team of project.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://delabiemedia.be">
+    <meta property="og:url" content="{{ .Page.Permalink }}">
     <meta property="og:site_name" content="Delabie Media">
     <meta property="og:image" content="https://delabiemedia.be/assets/DelabieMedia_Favicon.png">
     <meta property="article:author" content="Andreas Delabie">

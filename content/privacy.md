@@ -1,7 +1,7 @@
 ---
-title: "Privacy"
-description: "Meer info over welke gegevens wij verzamelen en hoe wij deze verwerken."
-date: "2024-09-10"
+title: Privacy
+description: Meer info over welke gegevens wij verzamelen en hoe wij deze verwerken.
+date: 2024-09-10
 sitemap:
   disable: true
 ---

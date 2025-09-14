@@ -1,5 +1,4 @@
 ---
+location: Gent
 layout: landingpage
-sitemap:
-    priority: 1
 ---

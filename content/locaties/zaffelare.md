@@ -1,5 +1,4 @@
 ---
+location: Zaffelare
 layout: landingpage
-sitemap:
-    priority: 1
 ---

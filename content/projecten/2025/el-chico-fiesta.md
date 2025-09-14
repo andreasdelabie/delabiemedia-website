@@ -1,15 +1,15 @@
 ---
-title: "El Chico Fiësta"
-category: "Evenement"
-director: "Andreas Delabie"
-writer: "Andreas Delabie"
-duration: "41"
-date: "2025-04-11"
-id: ["UQeU63yYWCs"]
-color: "white"
-transparancy: "0.5"
-background: "/assets/images/DelabieMedia_Background_Projecten_2025_ElChicoFiesta.jpg"
-thumbnail: "/assets/videothumbnails/DelabieMedia_VideoThumbnail_ElChicoFiesta2025.jpg"
+title: El Chico Fiësta
+category: Evenement
+director: Andreas Delabie
+writer: Andreas Delabie
+duration: 41
+date: 2025-04-11
+id: [UQeU63yYWCs]
+color: white
+transparancy: 0.5
+background: /assets/images/DelabieMedia_Background_Projecten_2025_ElChicoFiesta.jpg
+thumbnail: /assets/videothumbnails/DelabieMedia_VideoThumbnail_ElChicoFiesta2025.jpg
 ---
 Elk jaar organiseert Chiro Reinaert Lochristi de 'El Chico Fiësta' fuif.
 
