@@ -3,6 +3,8 @@ title: Cadeaubon
 description: Voorwaarden van Delabie Media cadeaubonnen.
 date: 2025-06-30
 noindex: true
+sitemap:
+    disable: true
 ---
 ### Voorwaarden:
 #### Geldigheidsduur:
