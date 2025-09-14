@@ -13,7 +13,7 @@ titleKeywords = "evenementen, advertenties, reclamevideos, bedrijfsvideo's, ..."
 priority = 0.5
 
 [outputs]
-section = ['HTML', 'videositemap']
+section = ['HTML', 'RSS', 'videositemap']
 
 [outputFormats.videositemap]
 mediaType = 'application/xml'
