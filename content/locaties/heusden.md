@@ -1,5 +1,4 @@
 ---
+location: Heusden
 layout: landingpage
-sitemap:
-    priority: 1
 ---

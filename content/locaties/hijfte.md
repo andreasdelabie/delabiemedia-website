@@ -1,5 +1,4 @@
 ---
+location: Hijfte
 layout: landingpage
-sitemap:
-    priority: 1
 ---

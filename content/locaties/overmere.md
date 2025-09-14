@@ -1,5 +1,4 @@
 ---
+location: Overmere
 layout: landingpage
-sitemap:
-    priority: 1
 ---

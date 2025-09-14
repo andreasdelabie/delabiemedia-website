@@ -1,7 +1,7 @@
 ---
-title: "Cookies"
-description: "Meer info over welke cookies wij gebruiken op onze website."
-date: "2024-08-30"
+title: Cookies
+description: Meer info over welke cookies wij gebruiken op onze website.
+date: 2024-08-30
 sitemap:
   disable: true
 ---

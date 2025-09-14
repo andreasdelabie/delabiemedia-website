@@ -1,5 +1,4 @@
 ---
+location: Lokeren
 layout: landingpage
-sitemap:
-    priority: 1
 ---

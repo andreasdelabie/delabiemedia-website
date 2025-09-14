@@ -1,5 +1,4 @@
 ---
+location: Ledeberg
 layout: landingpage
-sitemap:
-    priority: 1
 ---

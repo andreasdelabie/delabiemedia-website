@@ -1,5 +1,4 @@
 ---
+location: Oostakker
 layout: landingpage
-sitemap:
-    priority: 1
 ---

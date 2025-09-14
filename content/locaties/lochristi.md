@@ -1,5 +1,4 @@
 ---
+location: Lochristi
 layout: landingpage
-sitemap:
-    priority: 1
 ---

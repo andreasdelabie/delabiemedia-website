@@ -1,5 +1,4 @@
 ---
+location: Wachtebeke
 layout: landingpage
-sitemap:
-    priority: 1
 ---

@@ -1,9 +1,13 @@
 baseURL = 'https://delabiemedia.be'
-title = "Delabie Media | Videografie & Videoproductieservices | evenementen, advertenties, reclamevideos, bedrijfsvideo's, ..."
+title = "Delabie Media"
 
 theme = "delabiemedia-hugotheme"
 
 disableKinds = ['taxonomy']
+
+[params]
+titleDescription = "Videograaf & Videoproductieservices"
+titleKeywords = "evenementen, advertenties, reclamevideos, bedrijfsvideo's, ..."
 
 [sitemap]
 priority = 0.5
