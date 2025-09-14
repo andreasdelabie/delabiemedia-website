@@ -69,7 +69,7 @@
                 {{ if .Page.Params.links }}
                 <div class="links">
                 {{ range .Page.Params.links }}
-                    <a href="{{ .link }}" target="_blank"><button>{{ .name }}</button></a>
+                    <a href="{{ .link }}" target="_blank" rel="noopener noreferrer nofollow"><button>{{ .name }}</button></a>
                 {{ end }}
                 </div>
                 {{ end }}
