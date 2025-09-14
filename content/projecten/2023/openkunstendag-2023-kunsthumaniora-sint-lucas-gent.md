@@ -12,7 +12,7 @@ background: /assets/images/DelabieMedia_Background_Projecten_2023_Openkunstendag
 thumbnail: /assets/videothumbnails/DelabieMedia_VideoThumbnail_Openkunstendag2023KunsthumanioraSintLucasGent.jpg
 links:
     - name: Website
-      link: https://lucasgent.be
+      link: https://www.lucasgent.be
     - name: Instagram
       link: https://www.instagram.com/kunsthumaniorasintlucasgent/
     - name: Facebook
