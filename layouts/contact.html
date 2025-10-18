@@ -18,7 +18,8 @@
     <meta property="og:site_name" content="Delabie Media">
     <meta property="og:image" content="https://delabiemedia.be/assets/DelabieMedia_Favicon.png">
     <meta property="article:author" content="Andreas Delabie">
-    <link rel="shortcut icon" href="/assets/DelabieMedia_Favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/assets/DelabieMedia_Favicon_Zwart.png" type="image/png">
+    <link rel="shortcut icon" href="/assets/DelabieMedia_Favicon_Wit.png" type="image/png" media="(prefers-color-scheme: dark)">
     {{ with resources.Get "css/style-global.scss" | toCSS | minify | fingerprint}}<link rel="stylesheet" href="{{ .RelPermalink }}" />{{ end }}
     {{ with resources.Get "css/style-contact.scss" | toCSS | minify | fingerprint}}<link rel="stylesheet" href="{{ .RelPermalink }}" />{{ end }}
     {{ with resources.Get "js/cookies.js" | minify | fingerprint }}<script src="{{ .RelPermalink }}" defer></script>{{ end }}
