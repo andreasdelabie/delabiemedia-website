@@ -108,7 +108,7 @@ header {
 }
 
 .reviews {
-    min-height: 100vh;
+    min-height: 50vh;
     background-color: var(--grey);
     color: var(--white);
     .content {
@@ -175,7 +175,7 @@ header {
 }
 
 .contact {
-    height: 100vh;
+    min-height: 50vh;
     background-color: var(--grey);
     color: var(--white);
     text-align: center;
@@ -185,5 +185,24 @@ header {
         align-items: center;
         justify-content: center;
         gap: 25px;
+    }
+}
+
+.faq {
+    min-height: 50vh;
+    flex-direction: column;
+    background-color: var(--grey);
+    color: var(--white);
+    .content {
+        summary {
+            margin: 0.5em 0 0.25em 0;
+            font-size: var(--fs-medium);
+            line-height: 1em;
+            cursor: pointer;
+        }
+        details {
+            max-width: 637px;
+            line-height: 1.2em;
+        }
     }
 }
