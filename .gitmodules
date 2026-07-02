@@ -1,0 +1,3 @@
+[submodule "themes/delabiemedia-hugotheme"]
+	path = themes/delabiemedia-hugotheme
+	url = https://github.com/andreasdelabie/delabiemedia-hugotheme
