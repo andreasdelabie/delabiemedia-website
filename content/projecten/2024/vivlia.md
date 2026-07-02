@@ -13,12 +13,25 @@ thumbnail: /assets/videothumbnails/DelabieMedia_VideoThumbnail_Vivlia.jpg
 links:
     - name: IMDb
       link: https://www.imdb.com/title/tt32454252/
+    - name: Letterboxd
+      link: https://letterboxd.com/film/vivlia/
     - name: FilmFreeway
       link: https://filmfreeway.com/vivlia
 ---
 
 ### Synopsis:
 Wanneer Lisa's vader haar boek kapot scheurt zoekt ze hulp bij haar overleden moeder, met wie ze nog kan praten in haar gedachten.
+
+
+### Cast:
+Lisa: [Jessica Reyniers](https://www.instagram.com/jessica.reyniers/)
+
+Vader: [Erkan Arslan](https://www.instagram.com/erkan111arslan/)
+
+Moeder: [Karolien Van Driessche](https://www.facebook.com/karolien.vandriessche1/)
+
+Emma: [Manon Kenens](https://www.instagram.com/manon_kenens/)
+
 
 ### Crew:
 scenario/regie/montage: [Andreas Delabie](https://www.instagram.com/andreas_delabie/)
@@ -29,14 +42,6 @@ DOP/camera/graphics: [Michiel De Smet](https://www.instagram.com/michiel.d.s.m/)
 
 original soundtrack: [Amin Hadzic](https://www.instagram.com/aminhdzc/), Andreas Delabie
 
-### Cast:
-Lisa: [Jessica Reyniers](https://www.instagram.com/jessica.reyniers/)
-
-Vader: [Erkan Arslan](https://www.instagram.com/erkan111arslan/)
-
-Moeder: [Karolien Van Driessche](https://www.facebook.com/karolien.vandriessche1/)
-
-Emma: [Manon Kenens](https://www.instagram.com/manon_kenens/)
 
 ### Awards & Screenings:
 GIP EXPO Kunsthumaniora Sint-Lucas Gent
