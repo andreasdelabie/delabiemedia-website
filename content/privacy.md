@@ -121,7 +121,7 @@ Onze privacyverklaring moet aan verschillende voorwaarden voldoen. Deze voorwaar
 #### 13. Welke cookies gebruiken we?
 Een cookie is een klein tekstbestand dat bij je bezoek aan onze website geplaatst wordt op je hardware.
 
-Graag weten welke cookies we gebruiken op deze website? Bekijk de cookieverklaring [hier](/cookies).
+Graag weten welke cookies we gebruiken op deze website? Bekijk de cookieverklaring [hier](/cookies/).
 
 #### 14. Wat doen we met gegevens van minderjarigen?
 We richten ons met onze website of als organisatie niet specifiek op minderjarigen. Dit houdt in dat als je jonger bent dan 18 jaar, je toestemming nodig hebt van een ouder of voogd om gebruik te maken van onze website. Ben je bij je bezoek aan onze website of webshop minderjarig, dan gaan we ervan uit dat je voor je bezoek deze toestemming hebt gekregen.
