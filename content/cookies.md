@@ -40,10 +40,9 @@ Wees je er wel van bewust dat als je geen cookies wilt, wij niet meer kunnen gar
 
 Hoe je je instellingen kunt aanpassen, verschilt per browser. Raadpleeg indien nodig de helpfunctie van jouw browser, of klik op één van de onderstaande links om direct naar de handleiding van je browser te gaan.
 
-- Firefox: https://support.mozilla.org/nl/kb/cookies-verwijderen-gegevens-wissen-websites-opgeslagen
-- Google Chrome: https://support.google.com/chrome/answer/95647?co=GENIE.Platform=Desktop&hl=nl
-- Internet Explorer: https://support.microsoft.com/nl-nl/kb/278835
-- Safari op smart phone: https://support.apple.com/nl-nl/HT201265
+- Firefox: https://support.mozilla.org/nl/kb/cookies-en-websitegegevens-wissen-firefox
+- Google Chrome: https://support.google.com/chrome/answer/95647
+- Safari op smart phone: https://support.apple.com/nl-nl/105082
 - Safari op Mac: https://support.apple.com/nl-be/guide/safari/sfri11471/mac
 
 #### 6. Nieuwe ontwikkelingen en onvoorziene cookies
