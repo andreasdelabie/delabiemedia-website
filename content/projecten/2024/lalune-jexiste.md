@@ -10,11 +10,6 @@ color: white
 transparancy: 0.5
 background: /assets/images/DelabieMedia_Background_Projecten_2024_LaLuneJexiste.jpg
 thumbnail: /assets/videothumbnails/DelabieMedia_VideoThumbnail_LaLuneJexiste.jpg
-links:
-    - name: Spotify
-      link: https://open.spotify.com/track/6Dm3mDgVNI5QNJSMx5AuRT?si=78df78a8ca4a46c1
-    - name: Apple Music
-      link: https://music.apple.com/be/album/jexiste-single/1723110534
 ---
 
 In een paar uur tijd filmden we een complete muziekvideo voor opkomende Belgisch/Franse rapper 'LaLune'.
